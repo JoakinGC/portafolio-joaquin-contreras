@@ -1,0 +1,20 @@
+# Ignorar la carpeta node_modules
+node_modules/
+
+# Ignorar la carpeta .vite
+.vite/
+
+# Otras carpetas y archivos típicos a ignorar en un proyecto de Vite
+dist/
+.DS_Store
+.env
+*.local
+*.log
+*.tsbuildinfo
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
