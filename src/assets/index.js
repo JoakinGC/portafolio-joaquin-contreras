@@ -9,6 +9,8 @@ import close from "./close.svg";
 import imc1 from "./tech/IMC1.png";
 import pawCare from "./tech/PawCareScre.png";
 import library from "./tech/prestamos.png";
+import intecWeb from "../assets/intecWeb.png";
+import intecCompanian from "../assets/inteCCompanian.png";
 
 import css from "./tech/css.webp";
 import docker from "./tech/docker.webp";
@@ -85,4 +87,6 @@ export {
   imc1,
   pawCare,
   library,
+  intecWeb,
+  intecCompanian
 };

@@ -34,21 +34,25 @@ import {
   powerBI,
   imc1,
   pawCare,
-  library
+  library,
+  intecWeb,
+  intecCompanian
 } from "../assets";
+
+
 
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "navBar1",
   },
   {
     id: "work",
-    title: "Work",
+    title: "navBar2",
   },
   {
     id: "contact",
-    title: "Contact",
+    title: "navBar3",
   },
 ];
 
@@ -216,7 +220,7 @@ const projects = [
   {
     name: "Saas Posdcast",
     description:
-      "SaaS for generating podcasts with real or AI voices. Create unique images for each episode and enjoy various podcasts on a Next.js platform.",
+      "desc1",
     tags: [
       {
         name: "nextjs",
@@ -238,7 +242,7 @@ const projects = [
   {
     name: "Paw Care - Veterinary System",
     description:
-      "Web app for managing veterinary appointments, clients, and diagnostics. Includes pet history, online shopping with PayPal, virtual assistant, and breed recognition with AI.",
+      "desc2",
     tags: [
       {
         name: "react",
@@ -288,7 +292,7 @@ const projects = [
   {
     name: "Library App",
     description:
-      "Web app for managing and searching books in a library. Supervise employees and connect with PowerBI for productivity graphs.",
+      "desc3",
     tags: [
       {
         name: "JUnit",
@@ -314,7 +318,7 @@ const projects = [
   {
     name: "BMI App",
     description:
-      "Easily calculate your BMI with just two inputs. Simple and attractive design.",
+      "desc4",
     tags: [
       {
         name: "XML",
@@ -332,7 +336,7 @@ const projects = [
   {
     name: "Pet Recognition AI",
     description:
-      "App to identify if a pet is a dog or a cat using AI.",
+      "desc5",
     tags: [
       {
         name: "python",
@@ -349,4 +353,42 @@ const projects = [
   },
 ];
 
-export { services, technologies,  testimonials, projects };
+const experience = [
+  {
+    id: 1,
+    title: "Next.js Web Application for Intec Robots",
+    img: intecWeb,
+    desc: "desc1",
+    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
+    linkGitHub: "https://github.com/IntecRobots"
+  },
+  {
+    id: 2,
+    title: "React Native Application",
+    img: intecCompanian,
+    desc: "desc2",
+    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
+    linkGitHub: "https://github.com/IntecRobots"
+  },
+  {
+    id: 3,
+    title: "Kotlin Application for Robot Control",
+    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    desc: "desc3",
+    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
+    linkGitHub: "https://github.com/IntecRobots"
+  },
+];
+
+const languages = [
+  {
+    id:navLinks.length+1,
+    value:"es",
+  },
+  {
+    id:navLinks.length+2,
+    value:"en",
+  },
+]
+
+export { services, technologies,  testimonials, projects,experience,languages};

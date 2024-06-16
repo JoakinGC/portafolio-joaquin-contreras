@@ -1,7 +1,7 @@
 import React from 'react';
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
-
+import { useTranslation } from 'react-i18next';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { SectionWrapper } from '../hoc';
@@ -35,18 +35,20 @@ const ServiceCard = ({ index, title, icon }) => (
 );
 
 const About = () => {
+  const { t } = useTranslation();
+
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introducción</p>
-        <h2 className={styles.sectionHeadText}>Resumen.</h2>
+        <p className={styles.sectionSubText}>{t('Introduction')}</p>
+        <h2 className={styles.sectionHeadText}>{t('Summary')}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I am a full stack developer specializing in React - Next and React Native for cross-platform applications, and Kotlin for native Android applications. I develop dynamic user interfaces, robust mobile applications, and secure, efficient web services using Spring and Node/Express for the back-end. With experience in SQL and NoSQL databases, I focus on code quality and performance optimization to create technological solutions that add value to users.
+        {t('heroTitle')}
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

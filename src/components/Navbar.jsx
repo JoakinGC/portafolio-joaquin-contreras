@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import { useTranslation } from 'react-i18next';
 import { styles } from "../styles";
-import { navLinks } from "../constants";
+import { navLinks,languages } from "../constants";
 import { logo, menu, close } from "../assets";
 
 const Navbar = () => {
+  const { i18n, t } = useTranslation();
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -25,11 +26,13 @@ const Navbar = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+  };
+
   return (
     <nav
-      className={`${
-        styles.paddingX
-      } w-full flex items-center py-5 fixed top-0 z-20 ${
+      className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
@@ -54,14 +57,19 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.title ? "text-white" : "text-secondary"
+                active === nav.id ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
-              onClick={() => setActive(nav.title)}
+              onClick={() => setActive(nav.id)}
             >
-              <a href={`#${nav.id}`}>{nav.title}</a>
+              <a href={`#${nav.id}`}>{t(nav.title)}</a>
             </li>
           ))}
         </ul>
+
+        <div className='sm:flex hidden gap-4'>
+          <button onClick={() => changeLanguage('en')} className='text-white'>EN</button>
+          <button onClick={() => changeLanguage('es')} className='text-white'>ES</button>
+        </div>
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -81,14 +89,23 @@ const Navbar = () => {
                 <li
                   key={nav.id}
                   className={`font-poppins font-medium cursor-pointer text-[16px] ${
-                    active === nav.title ? "text-white" : "text-secondary"
+                    active === nav.id ? "text-white" : "text-secondary"
                   }`}
                   onClick={() => {
                     setToggle(!toggle);
-                    setActive(nav.title);
+                    setActive(nav.id);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a href={`#${nav.id}`}>{t(nav.title)}</a>
+                </li>
+              ))}
+              {languages.map((lan) =>(
+                <li key={lan.id}>
+                  <button 
+                  onClick={() => changeLanguage(lan.value)} 
+                  className='font-poppins font-medium cursor-pointer text-[16px] text-white'
+                  >{lan.value.toUpperCase()}
+                  </button>    
                 </li>
               ))}
             </ul>
