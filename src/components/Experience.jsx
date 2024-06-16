@@ -30,19 +30,19 @@ const ExperienceCard = ({ item }) => {
   };
 
   return (
-    <section className="my-10">
+    <section>
       <div className="container">
         <div className="wrapper">
-          <div className={`imageContainer ${isVertical ? 'vertical' : ''}`} ref={ref}>
-            <img src={item.img} alt="" className="w-full h-auto rounded-lg" onLoad={handleImageLoad} />
+          <div className="imageContainer" ref={ref}>
+            <img src={item.img} alt=""  />
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{t(item.title)}</h2>
             <p>{t(item.desc)}</p>
             <div className="buttons">
-              <a href={`${item.link}`} target="_blank" className="demoButton">See Demo</a>
+              <a href={`${item.link}` } target="_blank" className="demoButton">See Demo</a>
               <a href={`${item.linkGitHub}`} target="_blank" className="codeButton">
-                <FaGithub className="mr-2" /> View Code
+                <FaGithub /> View Code
               </a>
             </div>
           </motion.div>
