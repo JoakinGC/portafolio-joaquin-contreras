@@ -1,40 +1,12 @@
 import React, { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
-import "react-vertical-timeline-component/style.min.css";
-import "./portfolio.scss";
 import { SectionWrapper } from "../hoc";
-import intecWeb from "../assets/intecWeb.png";
-import intecCompanian from "../assets/inteCCompanian.png";
-
-const items = [
-  {
-    id: 1,
-    title: "Next.js Web Application for Intec Robots",
-    img: intecWeb,
-    desc: "Durante mi tiempo en Inter Robots, trabajé simultáneamente en tres proyectos utilizando metodologías ágiles. Formé parte de un equipo encargado de desarrollar una aplicación web con Next.js 14. Aprendí a usar Next.js y WebSockets para comunicaciones en tiempo real y a crear sistemas web escalables.",
-    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
-    linkGitHub: "https://github.com/IntecRobots"
-  },
-  {
-    id: 2,
-    title: "React Native Application",
-    img: intecCompanian,
-    desc: "Trabajé en el desarrollo de una aplicación de React Native para la gestión de visitas. En este proyecto, mejoré mis habilidades en React Native, buenas prácticas de desarrollo y la integración de servicios de terceros como Google Calendar y transmisión de video.",
-    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
-    linkGitHub: "https://github.com/IntecRobots"
-  },
-  {
-    id: 3,
-    title: "Kotlin Application for Robot Control",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    desc: "Con Android Compose, ayudé a mejorar una aplicación para controlar el mini bot. En este proyecto, aprendí sobre diferentes arquitecturas como MVVM y exploré el potencial de Kotlin.",
-    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
-    linkGitHub: "https://github.com/IntecRobots"
-  },
-];
+import { useTranslation } from "react-i18next";
+import { experience } from "../constants";
 
 const ExperienceCard = ({ item }) => {
+  const { t } = useTranslation();
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({
@@ -44,19 +16,19 @@ const ExperienceCard = ({ item }) => {
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
   return (
-    <section>
-      <div className="container">
-        <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt=""  />
+    <section className="my-10">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col lg:flex-row items-center lg:items-start">
+          <div className="lg:w-1/2 w-full mb-4 lg:mb-0" ref={ref}>
+            <img src={item.img} alt="" className="w-full h-auto rounded-lg" />
           </div>
-          <motion.div className="textContainer" style={{ y }}>
-            <h2>{item.title}</h2>
-            <p>{item.desc}</p>
-            <div className="buttons">
-              <a href={`${item.link}` } target="_blank" className="demoButton">See Demo</a>
-              <a href={`${item.linkGitHub}`} target="_blank" className="codeButton">
-                <FaGithub /> View Code
+          <motion.div className="lg:w-1/2 w-full lg:pl-10" style={{ y }}>
+            <h2 className="text-2xl font-bold mb-2">{t(item.title)}</h2>
+            <p className="mb-4">{t(item.desc)}</p>
+            <div className="flex space-x-4">
+              <a href={`${item.link}`} target="_blank" className="btn btn-primary">See Demo</a>
+              <a href={`${item.linkGitHub}`} target="_blank" className="btn btn-secondary flex items-center">
+                <FaGithub className="mr-2" /> View Code
               </a>
             </div>
           </motion.div>
@@ -67,6 +39,7 @@ const ExperienceCard = ({ item }) => {
 };
 
 const Experience = () => {
+  const { t } = useTranslation();
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({
@@ -81,11 +54,11 @@ const Experience = () => {
 
   return (
     <div className="portfolio" ref={ref}>
-      <div className="progress">
-        <h1>Featured Works</h1>
+      <div className="progress mb-10">
+        <h1 className="text-3xl font-bold">{t("Featured Works")}</h1>
         <motion.div style={{ scaleX }} className="progressBar"></motion.div>
       </div>
-      {items.map((item) => (
+      {experience.map((item) => (
         <ExperienceCard item={item} key={item.id} />
       ))}
     </div>
