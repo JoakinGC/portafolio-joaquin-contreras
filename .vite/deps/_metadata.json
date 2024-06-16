@@ -1,0 +1,112 @@
+{
+  "hash": "0e6b722e",
+  "configHash": "9eb62e09",
+  "lockfileHash": "68f54850",
+  "browserHash": "fb2cb294",
+  "optimized": {
+    "react": {
+      "src": "../../node_modules/react/index.js",
+      "file": "react.js",
+      "fileHash": "d736d3a7",
+      "needsInterop": true
+    },
+    "react-dom/client": {
+      "src": "../../node_modules/react-dom/client.js",
+      "file": "react-dom_client.js",
+      "fileHash": "d550caef",
+      "needsInterop": true
+    },
+    "react-router-dom": {
+      "src": "../../node_modules/react-router-dom/dist/index.js",
+      "file": "react-router-dom.js",
+      "fileHash": "0c4e5442",
+      "needsInterop": false
+    },
+    "framer-motion": {
+      "src": "../../node_modules/framer-motion/dist/es/index.mjs",
+      "file": "framer-motion.js",
+      "fileHash": "41205ff2",
+      "needsInterop": false
+    },
+    "react-dnd": {
+      "src": "../../node_modules/react-dnd/dist/index.js",
+      "file": "react-dnd.js",
+      "fileHash": "57912619",
+      "needsInterop": false
+    },
+    "react-dnd-html5-backend": {
+      "src": "../../node_modules/react-dnd-html5-backend/dist/index.js",
+      "file": "react-dnd-html5-backend.js",
+      "fileHash": "39ea9ed1",
+      "needsInterop": false
+    },
+    "react-icons/fa": {
+      "src": "../../node_modules/react-icons/fa/index.mjs",
+      "file": "react-icons_fa.js",
+      "fileHash": "f6aecda7",
+      "needsInterop": false
+    },
+    "react-parallax-tilt": {
+      "src": "../../node_modules/react-parallax-tilt/dist/modern/index.js",
+      "file": "react-parallax-tilt.js",
+      "fileHash": "9c5a2451",
+      "needsInterop": false
+    },
+    "@react-three/drei": {
+      "src": "../../node_modules/@react-three/drei/index.js",
+      "file": "@react-three_drei.js",
+      "fileHash": "4323f223",
+      "needsInterop": false
+    },
+    "@emailjs/browser": {
+      "src": "../../node_modules/@emailjs/browser/es/index.js",
+      "file": "@emailjs_browser.js",
+      "fileHash": "aa3eff28",
+      "needsInterop": false
+    },
+    "@react-three/fiber": {
+      "src": "../../node_modules/@react-three/fiber/dist/react-three-fiber.esm.js",
+      "file": "@react-three_fiber.js",
+      "fileHash": "97164f87",
+      "needsInterop": false
+    },
+    "maath/random/dist/maath-random.esm": {
+      "src": "../../node_modules/maath/random/dist/maath-random.esm.js",
+      "file": "maath_random_dist_maath-random__esm.js",
+      "fileHash": "d0cb28d1",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-5CK5BGGP": {
+      "file": "chunk-5CK5BGGP.js"
+    },
+    "chunk-QE6RYU6K": {
+      "file": "chunk-QE6RYU6K.js"
+    },
+    "chunk-LOUXMJPC": {
+      "file": "chunk-LOUXMJPC.js"
+    },
+    "hls-L3UKVXBP": {
+      "file": "hls-L3UKVXBP.js"
+    },
+    "vision_bundle-V3PWMATS": {
+      "file": "vision_bundle-V3PWMATS.js"
+    },
+    "chunk-D5YCJZ36": {
+      "file": "chunk-D5YCJZ36.js"
+    },
+    "chunk-KB4VQC4Z": {
+      "file": "chunk-KB4VQC4Z.js"
+    },
+    "chunk-Y4TJXANA": {
+      "file": "chunk-Y4TJXANA.js"
+    },
+    "chunk-PMYDY72F": {
+      "file": "chunk-PMYDY72F.js"
+    },
+    "chunk-ZS7NZCD4": {
+      "file": "chunk-ZS7NZCD4.js"
+    }
+  }
+}
