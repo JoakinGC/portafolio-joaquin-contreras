@@ -50,8 +50,8 @@
       
         &.vertical img {
           object-fit: contain;
-          max-height: 400px; // Ajusta esto según tus necesidades
-          width: auto; // Asegura que la imagen mantenga su proporción
+          max-height: 400px; 
+          width: auto; 
         }
       
         @include mobile {
