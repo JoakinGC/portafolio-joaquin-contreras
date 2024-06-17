@@ -38,7 +38,7 @@ const About = () => {
   const { t } = useTranslation();
 
   return (
-    <>
+    <div>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>{t('Introduction')}</p>
         <h2 className={styles.sectionHeadText}>{t('Summary')}</h2>
@@ -56,7 +56,7 @@ const About = () => {
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
