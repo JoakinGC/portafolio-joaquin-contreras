@@ -99,9 +99,9 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: "en", // Idioma por defecto
+    lng: "es", 
     interpolation: {
-      escapeValue: false // React ya hace escape de los valores
+      escapeValue: false 
     }
   });
 
