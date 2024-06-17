@@ -68,7 +68,7 @@ const resources = {
             "Ahh, something went wrong. Por favor, inténtalo de nuevo.": "Ahh, algo salió mal. Por favor, inténtalo de nuevo.",
             "Featured Works": "Trabajos Destacados",
             "Next.js Web Application for Intec Robots": "Aplicación Web Next.js para Intec Robots",
-            "desc1": "Durante mi tiempo en Inter Robots, trabajé simultáneamente en tres proyectos utilizando metodologías ágiles. Formé parte de un equipo encargado de desarrollar una aplicación web con Next.js 14. Aprendí a usar Next.js y WebSockets para comunicaciones en tiempo real y a crear sistemas web escalables.",
+            "desc1": "Durante mi tiempo en Inter Robots, trabajé simultáneamente en tres proyectos utilizando metodologías ágiles. Formé parte de un equipo encargados de desarrollar una aplicación web con Next.js 14. Aprendí a usar Next.js y WebSockets para comunicaciones en tiempo real y a crear sistemas web escalables.",
             "React Native Application": "Aplicación React Native",
             "desc2": "Trabajé en el desarrollo de una aplicación de React Native para la gestión de visitas. En este proyecto, mejoré mis habilidades en React Native, buenas prácticas de desarrollo y la integración de servicios de terceros como Google Calendar y transmisión de video.",
             "Kotlin Application for Robot Control": "Aplicación Kotlin para Control de Robots",
