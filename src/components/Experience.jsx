@@ -6,12 +6,15 @@ import "./portfolio.scss";
 import { SectionWrapper } from "../hoc";
 
 import { useTranslation } from "react-i18next";
+import "react-vertical-timeline-component/style.min.css";
+import "./portfolio.scss";
 import { experience } from "../constants";
 
 
 const ExperienceCard = ({ item }) => {
   const { t } = useTranslation();
   const ref = useRef();
+  const [isVertical, setIsVertical] = React.useState(false);
 
   const { scrollYProgress } = useScroll({
     target: ref,
@@ -19,20 +22,27 @@ const ExperienceCard = ({ item }) => {
 
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
 
+  const handleImageLoad = (e) => {
+    const img = e.target;
+    if (img.naturalHeight > img.naturalWidth) {
+      setIsVertical(true);
+    }
+  };
+
   return (
-    <section>
+    <section className="my-10">
       <div className="container">
         <div className="wrapper">
-          <div className="imageContainer" ref={ref}>
-            <img src={item.img} alt=""  />
+          <div className={`imageContainer ${isVertical ? 'vertical' : ''}`} ref={ref}>
+            <img src={item.img} alt="" className="w-full h-auto rounded-lg" onLoad={handleImageLoad} />
           </div>
           <motion.div className="textContainer" style={{ y }}>
             <h2>{t(item.title)}</h2>
             <p>{t(item.desc)}</p>
             <div className="buttons">
-              <a href={`${item.link}` } target="_blank" className="demoButton">See Demo</a>
+              <a href={`${item.link}`} target="_blank" className="demoButton">See Demo</a>
               <a href={`${item.linkGitHub}`} target="_blank" className="codeButton">
-                <FaGithub /> View Code
+                <FaGithub className="mr-2" /> View Code
               </a>
             </div>
           </motion.div>
@@ -41,6 +51,7 @@ const ExperienceCard = ({ item }) => {
     </section>
   );
 };
+
 
 const Experience = () => {
   const { t } = useTranslation();
