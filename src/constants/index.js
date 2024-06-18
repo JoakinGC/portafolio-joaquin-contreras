@@ -284,9 +284,13 @@ const projects = [
         name: "hibernate",
         color: "text-teal-300",
       }, 
+      {
+        name: "Svelte kit",
+        color: "text-orange-500",
+      },
     ],
     image: pawCare,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/JoakinGC/System-Paw-care",
     link:"#"
   },
   {
