@@ -220,7 +220,7 @@ const projects = [
   {
     name: "Saas Posdcast",
     description:
-      "desc1",
+      "desc4",
     tags: [
       {
         name: "nextjs",
@@ -242,7 +242,7 @@ const projects = [
   {
     name: "Paw Care - Veterinary System",
     description:
-      "desc2",
+      "desc5",
     tags: [
       {
         name: "react",
@@ -296,7 +296,7 @@ const projects = [
   {
     name: "Library App",
     description:
-      "desc3",
+      "desc6",
     tags: [
       {
         name: "JUnit",
@@ -322,7 +322,7 @@ const projects = [
   {
     name: "BMI App",
     description:
-      "desc4",
+      "desc7",
     tags: [
       {
         name: "XML",
@@ -340,7 +340,7 @@ const projects = [
   {
     name: "Pet Recognition AI",
     description:
-      "desc5",
+      "desc8",
     tags: [
       {
         name: "python",
