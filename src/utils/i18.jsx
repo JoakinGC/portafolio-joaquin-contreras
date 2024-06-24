@@ -6,6 +6,7 @@ const resources = {
         translation: {
             "Introduction": "Introduction",
             "Summary": "Summary",
+            "name":"Joaquin",
             "heroTitle": "I am a full stack developer specializing in React - Next and React Native for cross-platform applications, and Kotlin for native Android applications. I develop dynamic user interfaces, robust mobile applications, and secure, efficient web services using Spring and Node/Express for the back-end. With experience in SQL and NoSQL databases, I focus on code quality and performance optimization to create technological solutions that add value to users.",
             "Get in touch": "Get in touch",
             "Contact": "Contact",
@@ -17,7 +18,7 @@ const resources = {
             "What you want to say?":"What you want to say?",
             "Send": "Send",
             "Sending...": "Sending...",
-            "Hi, I'm Joaquin": "Hi, I'm Joaquin",
+            "Hi, I'm Joaquin": "Hi, I'm",
             "developer full stack, user interfaces and web applications": "developer full stack, user interfaces and web applications",
             "Thank you. I will get back to you as soon as possible.": "Thank you. I will get back to you as soon as possible.",
             "Ahh, something went wrong. Please try again.": "Ahh, something went wrong. Please try again.",
@@ -51,6 +52,7 @@ const resources = {
         translation: {
             "Introduction": "Introducción",
             "Summary": "Resumen",
+            "name":"Joaquin",
             "heroTitle": "Soy un desarrollador full stack especializado en React - Next y React Native para aplicaciones multiplataforma, y en Kotlin para aplicaciones nativas de Android. Desarrollo interfaces de usuario dinámicas, aplicaciones móviles robustas y servicios web seguros y eficientes utilizando Spring y Node/Express para el backend. Con experiencia en bases de datos SQL y NoSQL, me enfoco en la calidad del código y la optimización del rendimiento para crear soluciones tecnológicas que agreguen valor a los usuarios.",
             "Get in touch": "Ponte en contacto",
             "Contact": "Contacto",

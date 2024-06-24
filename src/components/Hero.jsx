@@ -20,7 +20,7 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            {t("Hi, I'm Joaquin")} <span className='text-[#915EFF]'></span>
+            {t("Hi, I'm Joaquin")} <span className='text-[#915EFF]'>{t("name")}</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             {t("developer full stack, user interfaces and web applications")}
