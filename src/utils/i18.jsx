@@ -64,7 +64,7 @@ const resources = {
             "What you want to say?":"¿Qué es lo que quieres comunicar?",
             "Send": "Enviar",
             "Sending...": "Enviando...",
-            "Hi, I'm Joaquin": "Hola, soy Joaquin",
+            "Hi, I'm Joaquin": "Hola, soy",
             "developer full stack, user interfaces and web applications": "desarrollador full stack, interfaces de usuario y aplicaciones web",
             "Thank you. I will get back to you as soon as possible.": "Gracias. Me pondré en contacto contigo lo antes posible.",
             "Ahh, something went wrong. Por favor, inténtalo de nuevo.": "Ahh, algo salió mal. Por favor, inténtalo de nuevo.",
