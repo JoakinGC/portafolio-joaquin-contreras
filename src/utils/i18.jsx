@@ -79,7 +79,7 @@ const resources = {
             "desc4": "SaaS para generar podcasts con voces reales o de IA. Crea imágenes únicas para cada episodio y disfruta de varios podcasts en una plataforma Next.js.",
             "Paw Care - Veterinary System": "Paw Care - Sistema Veterinario",
             "desc5": "Aplicación web para gestionar citas veterinarias, clientes y diagnósticos. Incluye historial de mascotas, compras en línea con PayPal, asistente virtual y reconocimiento de razas con IA.",
-            "Library App": "Aplicación de Biblioteca",
+            "Library App": "Sistema de Gestión Bibliotecario",
             "desc6": "Aplicación web para gestionar y buscar libros en una biblioteca. Supervisa empleados y conéctate con PowerBI para gráficos de productividad.",
             "BMI App": "Aplicación de IMC",
             "desc7": "Calcula fácilmente tu IMC con solo dos entradas. Diseño simple y atractivo.",
