@@ -354,6 +354,23 @@ const projects = [
     image: tripguide,
     source_code_link: "https://colab.research.google.com/drive/1yZXtry7UxneHkljEQiOoI0V7X8afKUuv?usp=sharing",
     link:"#"
+  },{
+    name: "ToDoApp",
+    description:
+      "desc9",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "text-orange-400",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/JoakinGC/Productivity-system",
+    link:"https://tareas-do-app-joakingc-joaquins-projects-fb981f88.vercel.app/"
   },
 ];
 

@@ -31,6 +31,7 @@ const resources = {
             "desc3": "With Android Compose, I helped improve an application to control the mini bot. In this project, I learned about different architectures like MVVM and explored the potential of Kotlin.",
             "Saas Posdcast": "Saas Podcast",
             "desc4": "SaaS for generating podcasts with real or AI voices. Create unique images for each episode and enjoy various podcasts on a Next.js platform.",
+            "desc9": "This project is a To-Do App developed as part of my first internship with React. The app allows users to create, view, mark as complete, and delete tasks, providing an interactive and efficient experience. This project was an excellent opportunity to strengthen my knowledge of React and state management through React Hooks.",
             "Paw Care - Veterinary System": "Paw Care - Veterinary System",
             "desc5": "Web app for managing veterinary appointments, clients, and diagnostics. Includes pet history, online shopping with PayPal, virtual assistant, and breed recognition with AI.",
             "Library App": "Library App",
@@ -46,6 +47,7 @@ const resources = {
             "navBar1":"About",
             "navBar2":"Work",
             "navBar3":"Contact",
+            "ToDoApp":"To-Do-App"
         }
     },
     es: {
@@ -79,6 +81,7 @@ const resources = {
             "desc4": "SaaS para generar podcasts con voces reales o de IA. Crea imágenes únicas para cada episodio y disfruta de varios podcasts en una plataforma Next.js.",
             "Paw Care - Veterinary System": "Paw Care - Sistema Veterinario",
             "desc5": "Aplicación web para gestionar citas veterinarias, clientes y diagnósticos. Incluye historial de mascotas, compras en línea con PayPal, asistente virtual y reconocimiento de razas con IA.",
+            "desc9":"Este proyecto es una aplicación de gestión de tareas (To-Do App) desarrollada como parte de mis primeras prácticas con React. La aplicación permite a los usuarios crear, visualizar, marcar como completadas y eliminar tareas, proporcionando una experiencia interactiva y eficiente. Este proyecto fue una excelente oportunidad para afianzar mis conocimientos en React y en la gestión del estado a través de React Hooks.",
             "Library App": "Sistema de Gestión Bibliotecario",
             "desc6": "Aplicación web para gestionar y buscar libros en una biblioteca. Supervisa empleados y conéctate con PowerBI para gráficos de productividad.",
             "BMI App": "Aplicación de IMC",
@@ -92,6 +95,7 @@ const resources = {
             "navBar1":"Sobre mi",
             "navBar2":"Experiencia",
             "navBar3":"Contacto",
+            "ToDoApp":"To-Do-App"
         }
     }
 };
