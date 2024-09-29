@@ -47,7 +47,9 @@ const resources = {
             "navBar1":"About",
             "navBar2":"Work",
             "navBar3":"Contact",
-            "ToDoApp":"To-Do-App"
+            "ToDoApp":"To-Do-App",
+            "CalculadoraProject":"Calculator App",
+            "desc10":"The application allows all users to perform mathematical operations. Using the Math.js library and hooks, I developed a calculator as a practice project when I started learning React.",
         }
     },
     es: {
@@ -95,7 +97,9 @@ const resources = {
             "navBar1":"Sobre mi",
             "navBar2":"Experiencia",
             "navBar3":"Contacto",
-            "ToDoApp":"To-Do-App"
+            "ToDoApp":"To-Do-App",
+            "CalculadoraProject":"Calculadora App",
+            "desc10":"La aplicación permite a todos los usuarios realizar operaciones matemáticas. A través de la librería Math.js y el uso de hooks, desarrollé una calculadora como práctica al comenzar a aprender React."
         }
     }
 };

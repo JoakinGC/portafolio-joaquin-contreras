@@ -372,6 +372,24 @@ const projects = [
     source_code_link: "https://github.com/JoakinGC/Productivity-system",
     link:"https://tareas-do-app-joakingc-joaquins-projects-fb981f88.vercel.app/"
   },
+  {
+    name: "CalculadoraProject",
+    description:
+      "desc10",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JavaScript",
+        color: "text-orange-400",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/JoakinGC/Productivity-system",
+    link:"https://calculadora-gilt-iota.vercel.app/"
+  },
 ];
 
 const experience = [
