@@ -19,14 +19,14 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
+        className=' dark:bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
           src={icon}
           alt='web-development'
           className='w-16 h-16 object-contain'
         />
-        <h3 className='text-white text-[20px] font-bold text-center'>
+        <h3 className='dark:text-white text-[20px] font-bold text-center'>
           {title}
         </h3>
       </div>
@@ -39,17 +39,30 @@ const About = () => {
 
   return (
     <div>
-      <motion.div variants={textVariant()}>
+      <motion.div variants={textVariant()} >
         <p className={styles.sectionSubText}>{t('Introduction')}</p>
         <h2 className={styles.sectionHeadText}>{t('Summary')}</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[15px] max-w-3xl leading-[30px]  mx-auto'
       >
-        {t('heroTitle')}
+        {t('heroTitle1')}
       </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[15px] max-w-3xl leading-[30px]  mx-auto'
+      >
+        {t('heroTitle2')}
+      </motion.p>
+      <motion.p
+        variants={fadeIn("", "", 0.1, 1)}
+        className='mt-4 text-secondary text-[15px] max-w-3xl leading-[30px]  mx-auto'
+      >
+        {t('heroTitle3')}
+      </motion.p>
+
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (

@@ -36,7 +36,10 @@ import {
   pawCare,
   library,
   intecWeb,
-  intecCompanian
+  intecCompanian,
+  idrica,
+  scadaIdrica,
+  hfIcon
 } from "../assets";
 
 
@@ -54,137 +57,166 @@ export const navLinks = [
     id: "contact",
     title: "navBar3",
   },
+  {
+    id: "notes",
+    title: "navBar4",
+  },
 ];
 
 const services = [
   {
-    title: "Web Developer",
+    title: "IA",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Full Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Marketing and Creator Content",
+    title: "Marketing and Bussiness",
     icon: creator,
   },
 ];
 
-const technologies = [
+const tech = [
   {
-    name: "Power BI",
-    icon: powerBI,
-  },
-  {
-    name: "Java",
-    icon: java,
-  },
-  {
-    name: "Kotlin",
-    icon: kotlin,
-  },
-  {
-    name: "Cypress",
-    icon: cypress,
-  },
-  {
-    name: "Jest",
-    icon: jest,
-  },
-  {
-    name: "wordPress",
-    icon: wordPress,
-  },
-  {
-    name: "Python",
-    icon: python,
-  },
-  {
-    name: "Hibernate",
-    icon: hibernate,
-  },
-  {
-    name: "TensorFlow",
-    icon: tensorFlow,
-  },
-  {
-    name: "php",
-    icon: php,
-  },
-  {
-    name: "Bootstrap",
-    icon: bootstrap,
-  },
-  {
-    name: "Spring",
-    icon: spring,
-  },
-  {
-    name: "MySQL",
-    icon: mysql,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "Next JS",
-    icon: nextJs,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
-];
+    "name":"Back-end",
+    "technologies":[
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "php",
+      icon: php,
+    },
+    {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Spring",
+      icon: spring,
+    },
+    {
+      name: "Node JS",
+      icon: nodejs,
+    },
+    {
+      name: "Hibernate",
+      icon: hibernate,
+    },
+    ],
+  },{
+    "name":"Front-end",
+    "technologies": [
+      {
+        name: "Bootstrap",
+        icon: bootstrap,
+      },
+      {
+        name: "HTML 5",
+        icon: html,
+      },
+      {
+        name: "Next JS",
+        icon: nextJs,
+      },
+      {
+        name: "CSS 3",
+        icon: css,
+      },
+      {
+        name: "JavaScript",
+        icon: javascript,
+      },
+      {
+        name: "TypeScript",
+        icon: typescript,
+      },
+      {
+        name: "React JS",
+        icon: reactjs,
+      },
+      {
+        name: "Redux Toolkit",
+        icon: redux,
+      },
+      {
+        name: "Tailwind CSS",
+        icon: tailwind,
+      },
+      {
+        name: "Three JS",
+        icon: threejs,
+      },
+      {
+        name: "Kotlin",
+        icon: kotlin,
+      },
+    ],
+  },{
+    "name":"Tools",
+    "technologies":[
+      {
+        name: "Power BI",
+        icon: powerBI,
+      },
+      {
+        name: "git",
+        icon: git,
+      },
+      {
+        name: "figma",
+        icon: figma,
+      },
+      {
+        name: "docker",
+        icon: docker,
+      },
+    ]},{
+    "name":"CMS",
+    "technologies":[
+      {
+        name: "wordPress",
+        icon: wordPress,
+      },
+    ]
+    },{
+    "name":"Testing",
+    "technologies":[
+      {
+        name: "Cypress",
+        icon: cypress,
+      },
+      {
+        name: "Jest",
+        icon: jest,
+      },
+    ]},{
+    "name":"System Database",
+    "technologies":[
+      {
+        name: "MySQL",
+        icon: mysql,
+      },
+      {
+        name: "MongoDB",
+        icon: mongodb,
+      },
+    ]},{
+    "name":"IA",
+    "technologies":[
+      {
+        name: "TensorFlow",
+        icon: tensorFlow,
+      },
+      {
+        name: "Transformers",
+        icon: hfIcon,
+      },
+    ]}
+  ]
 
 
 
@@ -403,7 +435,7 @@ const experience = [
   },
   {
     id: 2,
-    title: "React Native Application",
+    title: "React Native Application (Inter Robots)",
     img: intecCompanian,
     desc: "desc2",
     link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
@@ -411,11 +443,27 @@ const experience = [
   },
   {
     id: 3,
-    title: "Kotlin Application for Robot Control",
+    title: "Kotlin Application for Robot Control (Inter Robots)",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "desc3",
-    link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
+    link: "https://intecrobots.com/",
     linkGitHub: "https://github.com/IntecRobots"
+  },
+  {
+    id: 4,
+    title: "Scada MindDen - Idrica",
+    img: idrica,
+    desc: "middenScada",
+    link: "https://www.idrica.com/platform/",
+    linkGitHub: ""
+  },
+  {
+    id: 5,
+    title: "SCADA  SCRUM",
+    img: scadaIdrica,
+    desc: "scadaScrum",
+    link: "https://www.xylem.com/zh-cn/brand/vue/our-solutions/powered-by-goaigua/",
+    linkGitHub: ""
   },
 ];
 
@@ -430,4 +478,4 @@ const languages = [
   },
 ]
 
-export { services, technologies,  testimonials, projects,experience,languages};
+export { services,tech,  testimonials, projects,experience,languages};
