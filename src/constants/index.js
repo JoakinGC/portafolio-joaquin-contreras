@@ -435,7 +435,7 @@ const experience = [
   },
   {
     id: 2,
-    title: "React Native Application (Inter Robots)",
+    title: "React Native Application",
     img: intecCompanian,
     desc: "desc2",
     link: "https://www.youtube.com/watch?v=FUG6aFM8jdk",
@@ -443,7 +443,7 @@ const experience = [
   },
   {
     id: 3,
-    title: "Kotlin Application for Robot Control (Inter Robots)",
+    title: "Kotlin Application for Robot Control",
     img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
     desc: "desc3",
     link: "https://intecrobots.com/",

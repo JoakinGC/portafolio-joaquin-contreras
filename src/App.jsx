@@ -30,7 +30,7 @@ const App = () => {
           <About />
           <Experience />
           <Works />
-          <Notes/>
+          {/*<Notes/>*/}
           <Tech />
           
           {/*<Feedbacks />*/}
