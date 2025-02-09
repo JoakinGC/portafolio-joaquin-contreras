@@ -1,7 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
-
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -19,10 +18,10 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
+          <h1 className={`${styles.heroHeadText}`}>
             {t("Hi, I'm Joaquin")} <span className='text-[#915EFF]'>{t("name")}</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p className={`${styles.heroSubText} mt-2 `}>
             {t("developer full stack, user interfaces and web applications")}
           </p>
         </div>

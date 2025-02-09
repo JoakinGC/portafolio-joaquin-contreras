@@ -4,6 +4,8 @@ import { useTranslation } from 'react-i18next';
 import { styles } from "../styles";
 import { navLinks,languages } from "../constants";
 import { logo, menu, close } from "../assets";
+import ThemeToggle from "../utils/ThemeToggle";
+
 
 const Navbar = () => {
   const { i18n, t } = useTranslation();
@@ -33,7 +35,7 @@ const Navbar = () => {
   return (
     <nav
       className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 ${
-        scrolled ? "bg-primary" : "bg-transparent"
+        scrolled ? `${styles.bg}` : "bg-transparent"
       }`}
     >
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -46,7 +48,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer flex '>
+          <p className='text-black dark:text-white text-[18px] font-bold cursor-pointer flex '>
             Joaquin &nbsp;
             <span className='sm:block hidden'> | Full Stack</span>
           </p>
@@ -57,20 +59,28 @@ const Navbar = () => {
             <li
               key={nav.id}
               className={`${
-                active === nav.id ? "text-white" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
+                active === nav.id ? `${styles.cardText}` : "text-secondary"
+              } hover:text-black dark:hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.id)}
             >
               <a href={`#${nav.id}`}>{t(nav.title)}</a>
             </li>
           ))}
+          <li>
+            <ThemeToggle />
+          </li>
         </ul>
-
+        
+            
+          
         <div className='sm:flex hidden gap-4'>
-          <button onClick={() => changeLanguage('en')} className='text-white'>EN</button>
-          <button onClick={() => changeLanguage('es')} className='text-white'>ES</button>
+          <button onClick={() => changeLanguage('en')} className='text-black dark:text-white'>EN</button>
+          <button onClick={() => changeLanguage('es')} className='text-black dark:text-white'>ES</button>
         </div>
-
+        <div className='sm:hidden flex flex-1 justify-end items-center'>
+          <ThemeToggle />
+        </div>
+        
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
             src={toggle ? close : menu}
@@ -100,10 +110,10 @@ const Navbar = () => {
                 </li>
               ))}
               {languages.map((lan) =>(
-                <li key={lan.id}>
+                <li key={lan.id} className='w-full'>
                   <button 
                   onClick={() => changeLanguage(lan.value)} 
-                  className='font-poppins font-medium cursor-pointer text-[16px] text-white'
+                  className='font-poppins font-medium cursor-pointer text-[16px] text-secondary'
                   >{lan.value.toUpperCase()}
                   </button>    
                 </li>
