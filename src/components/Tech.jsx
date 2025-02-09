@@ -81,7 +81,7 @@ const Tech = () => {
                       animate={{ opacity: 1, height: "auto" }}
                       exit={{ opacity: 0, height: 0 }}
                       transition={{ duration: 0.3 }}
-                      className="grid grid-cols-1 lg:grid-cols-3 gap-4 overflow-hidden"
+                      className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-4 overflow-hidden"
                     >
                       {category.technologies.map((technology, i) => (
                         <DraggableTech key={technology.name} technology={technology} index={i} />
