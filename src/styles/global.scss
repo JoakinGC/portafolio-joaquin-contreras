@@ -256,7 +256,7 @@ section {
       align-items: center;
       justify-content: center;
       gap: 25px;
-      margin-bottom: 60px;
+      margin-bottom: 0px;
 
       @include mobile {
         flex-direction: column;

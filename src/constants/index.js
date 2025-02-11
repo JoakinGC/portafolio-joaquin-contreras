@@ -367,7 +367,7 @@ const projects = [
     ],
     image: imc1,
     source_code_link: "https://github.com/JoakinGC/IMC-Aplication",
-    link:"#"
+    link:"https://github.com/JoakinGC/IMC-Aplication/tree/main/build"
   },
   {
     name: "Pet Recognition AI",
@@ -385,7 +385,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://colab.research.google.com/drive/1yZXtry7UxneHkljEQiOoI0V7X8afKUuv?usp=sharing",
-    link:"#"
+    link:"https://joakingc.github.io/IA-recognition-dog-or-cat/"
   },{
     name: "ToDoApp",
     description:
