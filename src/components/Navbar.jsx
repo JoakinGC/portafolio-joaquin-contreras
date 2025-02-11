@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { styles } from "../styles";
 import { navLinks,languages } from "../constants";
 import { logo, menu, close } from "../assets";
-import ThemeToggle from "../utils/ThemeToggle";
+import ThemeToggle from "./ThemeToggle";
 
 
 const Navbar = () => {
