@@ -29,7 +29,7 @@ const ExperienceCard = ({ item }) => {
   };
 
   return (
-    <section className="my-10">
+    <section>
       <div className="container  text-black dark:text-white">
         <div className="wrapper">
           <div className={`imageContainer ${isVertical ? 'vertical' : ''}`} ref={ref}>
