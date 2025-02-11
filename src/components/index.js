@@ -9,6 +9,8 @@ import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
 import Notes from './Notes';
+import Footer from './Footer';
+import WhatsAppButton from './WhatsAppButton';
 
 
 export {
@@ -21,6 +23,8 @@ export {
   Feedbacks,
   Contact,
   Notes,
+  WhatsAppButton,
+  Footer,
   CanvasLoader,
   EarthCanvas, 
   BallCanvas, 

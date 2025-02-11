@@ -12,7 +12,9 @@ import {
   Tech,
   Works,
   StarsCanvas,
-  Notes
+  Notes,
+  Footer,
+  WhatsAppButton
 } from "./components";
 import "./styles/global.scss";
 import i18n from "./utils/i18";
@@ -39,7 +41,9 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
+          <Footer/>
           <ToastContainer/>
+          <WhatsAppButton/>
         </div>
       </BrowserRouter>
     </I18nextProvider>
