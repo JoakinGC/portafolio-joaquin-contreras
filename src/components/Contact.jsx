@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from 'react-i18next';
+import { toast } from "react-toastify";        
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -15,7 +16,6 @@ const Contact = () => {
     email: "",
     message: "",
   });
-
   const [loading, setLoading] = useState(false);
 
   const handleChange = (e) => {
@@ -48,8 +48,8 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert(t("Thank you. I will get back to you as soon as possible."));
-
+          toast.success(t("Thank you. I will get back to you as soon as possible."));
+          
           setForm({
             name: "",
             email: "",
@@ -60,18 +60,16 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert(t("Ahh, something went wrong. Please try again."));
+          toast.error(t("Ahh, something went wrong. Please try again."));
         }
       );
   };
 
   return (
-    <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
-    >
+    <div className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className='flex-[0.75] bg-white-100  p-8 rounded-2xl dark:bg-black-100'
+        className='flex-[0.75] bg-white-100 p-8 rounded-2xl dark:bg-black-100'
       >
         <p className={styles.sectionSubText}>{t("Get in touch")}</p>
         <h3 className={styles.sectionHeadText}>{t("Contact")}</h3>
@@ -89,7 +87,7 @@ const Contact = () => {
               value={form.name}
               onChange={handleChange}
               placeholder={t("What's your name?")}
-              className='bg-tertiaryLight dark:bg-tertiary  placeholder:text-secondaryLight dark:placeholder:text-secondary text-black dark:text-white  py-4 px-6 rounded-lg outline-none border-none font-medium'
+              className='bg-tertiaryLight dark:bg-tertiary placeholder:text-secondaryLight dark:placeholder:text-secondary text-black dark:text-white py-4 px-6 rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -100,7 +98,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder={t( "What is your email address?")}
-              className='bg-tertiaryLight dark:bg-tertiary  placeholder:text-secondaryLight dark:placeholder:text-secondary text-black dark:text-white py-4 px-6  rounded-lg outline-none border-none font-medium'
+              className='bg-tertiaryLight dark:bg-tertiary placeholder:text-secondaryLight dark:placeholder:text-secondary text-black dark:text-white py-4 px-6  rounded-lg outline-none border-none font-medium'
             />
           </label>
           <label className='flex flex-col'>
@@ -115,13 +113,12 @@ const Contact = () => {
             />
           </label>
           
-            <button
-              type='submit'
-              className='bg-tertiaryLight dark:bg-tertiary py-3 px-8 rounded-xl outline-none  text-black dark:text-white font-bold shadow-md shadow-primary'
-            >
-              {loading ? t("Sending...") : t("Send")}
-            </button>
-          
+          <button
+            type='submit'
+            className='bg-tertiaryLight dark:bg-tertiary py-3 px-8 rounded-xl outline-none text-black dark:text-white font-bold shadow-md shadow-primary'
+          >
+            {loading ? t("Sending...") : t("Send")}
+          </button>
         </form>
       </motion.div>
 

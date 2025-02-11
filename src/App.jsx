@@ -1,4 +1,5 @@
 import React from "react";
+import { ToastContainer } from "react-toastify";
 import { BrowserRouter } from "react-router-dom";
 import { I18nextProvider } from 'react-i18next';
 import {
@@ -38,6 +39,7 @@ const App = () => {
             <Contact />
             <StarsCanvas />
           </div>
+          <ToastContainer/>
         </div>
       </BrowserRouter>
     </I18nextProvider>
