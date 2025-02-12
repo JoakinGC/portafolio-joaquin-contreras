@@ -1,11 +1,11 @@
 import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF,Environment  } from "@react-three/drei";
 
 import CanvasLoader from "../Loader";
 
 const Earth = () => {
-  const earth = useGLTF("./planet/scene.gltf");
+  const earth = useGLTF("./kamisama/scene.gltf");
 
   return (
     <primitive object={earth.scene} scale={2.5} position-y={0} rotation-y={0} />
@@ -33,6 +33,10 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
+        <ambientLight intensity={0.7} />
+         <directionalLight position={[5, 10, 5]} intensity={2} castShadow />
+        <pointLight position={[-3, 2, 4]} intensity={1.5} decay={2} />
+         <Environment preset="sunset" /> 
         <Earth />
 
         <Preload all />
