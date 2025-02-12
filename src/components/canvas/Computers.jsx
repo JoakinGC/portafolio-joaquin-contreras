@@ -13,11 +13,8 @@ const Computers = ({ isMobile }) => {
       <hemisphereLight intensity={0.4} groundColor="black" />
 
       <directionalLight position={[2, 5, 2]} intensity={1.5} castShadow />
-
-      {/* Luz direccional extra para iluminar la parte frontal */}
       <directionalLight position={[0, 3, 5]} intensity={2.5} castShadow />
 
-      {/* Luz puntual cerca de la pantalla para resaltar más la imagen */}
       <pointLight position={[0, 2, 3]} intensity={2.5} decay={1.2} />
 
       <spotLight
@@ -34,7 +31,8 @@ const Computers = ({ isMobile }) => {
       <primitive
         object={computer.scene}
         scale={0.5}
-        position={isMobile ? [0, -3, -2.2] : [0, -3.25, -1.5]}
+        position={isMobile ? [0, -3, 0] : [0, -3.25, 0]}
+        rotation={[0,-1.75,0]}
       />
     </mesh>
   );
