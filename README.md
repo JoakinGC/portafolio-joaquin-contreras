@@ -1,2 +1,0 @@
-# portafolio-joaquin-contreras
-Portafolio
