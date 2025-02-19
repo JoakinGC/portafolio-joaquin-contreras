@@ -46,6 +46,8 @@ import hfIcon from './hf-logo.svg'
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import multiModal from "./multiModal.png";
+import robot from "./robot.png";
 
 
 export {
@@ -94,5 +96,7 @@ export {
   library,
   intecWeb,
   intecCompanian,
-  hfIcon
+  hfIcon,
+  multiModal,
+  robot,
 };

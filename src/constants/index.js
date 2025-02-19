@@ -39,7 +39,9 @@ import {
   intecCompanian,
   idrica,
   scadaIdrica,
-  hfIcon
+  hfIcon,
+  multiModal,
+  robot
 } from "../assets";
 
 
@@ -271,6 +273,71 @@ const projects = [
     source_code_link: "https://github.com/JoakinGC/Saas-posdcast",
     link:"#"
   },
+  {
+    name: "Assistant",
+    description:
+      "assistant_ia",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "huggingface",
+        color: "text-yellow-300",
+      },
+      {
+        name: "tensorflow",
+        color: "text-orange-400",
+      },
+      {
+        name: "transform",
+        color: "text-yellow-300",
+      },
+      {
+        name: "speech recognition",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "web scraping",
+        color: "text-red-400",
+      },
+      {
+        name: "mysql",
+        color: "text-blue-400",
+      },
+    ],
+    image: robot,
+    source_code_link: "https://github.com/JoakinGC/assistant.git",
+    link:"https://github.com/JoakinGC/assistant/tree/main/dist"
+  },
+  {
+    name: "Multi Modal Chat",
+    description:
+      "multi_modal_description",
+    tags: [
+      {
+        name: "python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "huggingface",
+        color: "text-yellow-300",
+      },
+      {
+        name: "Streamlit",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "transform",
+        color: "text-yellow-300",
+      },
+    ],
+    image: multiModal,
+    source_code_link: "https://github.com/JoakinGC/multi-modal-chat.git",
+    link:"#"
+  },
+  
   {
     name: "Paw Care - Veterinary System",
     description:
