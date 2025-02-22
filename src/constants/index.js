@@ -220,9 +220,6 @@ const tech = [
     ]}
   ]
 
-
-
-
 const testimonials = [
   {
     testimonial:
@@ -416,7 +413,7 @@ const projects = [
     ],
     image: library,
     source_code_link: "https://github.com/JoakinGC/library-system",
-    link:"https://library-system-8hhk.onrender.com"
+    link:"https://endless-datum-450720-e3.ew.r.appspot.com/"
   },
   {
     name: "BMI App",
