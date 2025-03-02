@@ -113,7 +113,7 @@ const resources = {
             "scadaScrum": "Además, a través de este proyecto aprendimos a aprovechar en gran medida las ventajas que brindan las metodologías ágiles, gracias al uso de Jira y al trabajo de un equipo de excelencia. Esto nos permitió avanzar y organizarnos de manera eficiente, cumpliendo así el objetivo de crear y comunicar el estado de los sistemas hídricos de Qatar.",
             "navBar1":"Sobre mi",
             "navBar2":"Experiencia",
-            "navBar3":"Contato",
+            "navBar3":"Contacto",
             "navBar4":"Mis Notas",
             "ToDoApp":"To-Do-App",
             "CalculadoraProject":"Calculadora App",
