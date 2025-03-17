@@ -41,7 +41,8 @@ import {
   scadaIdrica,
   hfIcon,
   multiModal,
-  robot
+  robot,
+  pageReloj
 } from "../assets";
 
 
@@ -247,7 +248,29 @@ const testimonials = [
   },
 ];
 
-const projects = [
+const projects = [ 
+  {
+    name: "Timer Boxer",
+    description:
+      "timer_project_description",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pageReloj,
+    source_code_link: "https://github.com/JoakinGC/timer-round-box.git",
+    link:"https://boxer-reloj.vercel.app/"
+  },
   {
     name: "Saas Posdcast",
     description:

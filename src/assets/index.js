@@ -41,13 +41,15 @@ import cypress from './tech/cypress.webp';
 import wordPress from './tech/wordPress.webp';
 import kotlin from './tech/kotlin.webp';
 import powerBI from './tech/powerBI.webp';
-import hfIcon from './hf-logo.svg'
+import hfIcon from './hf-logo.svg';
+
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import multiModal from "./multiModal.png";
 import robot from "./robot.png";
+import pageReloj from "./boxer.png";
 
 
 export {
@@ -99,4 +101,5 @@ export {
   hfIcon,
   multiModal,
   robot,
+  pageReloj,
 };
