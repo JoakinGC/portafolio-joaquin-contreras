@@ -489,7 +489,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/JoakinGC/Productivity-system",
-    link:"https://tareas-do-app-joakingc-joaquins-projects-fb981f88.vercel.app/"
+    link:"https://crud-to-do-app-dwmh.vercel.app/"
   },
   {
     name: "CalculadoraProject",
