@@ -594,7 +594,7 @@ const notes = [
   {
     title: "AWSNotes",
     description: "descripAWS",
-    link: "https://joakingc.github.io/amazon-cloud/servicio-web.html"
+    link: "https://joakingc.github.io/notes/amazon-cloud/amazon-web-services-(aws).html"
   },
   {
     title: "TFNotes",
