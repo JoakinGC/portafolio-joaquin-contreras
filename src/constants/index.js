@@ -565,4 +565,42 @@ const languages = [
   },
 ]
 
-export { services,tech,  testimonials, projects,experience,languages};
+const notes = [
+  {
+      title: "FPDAMNotes",
+      description: "descriFPDAM",
+      link: "https://joakingc.github.io/notes/indice.html"
+  },
+  {
+      title: "JSNotes",
+      description: "descipJS",
+      link: "https://joakingc.github.io/notes-JS/JavaScript.html"
+  },
+  {
+      title: "ReactNotes",
+      description: "descipReact",
+      link: "https://joakingc.github.io/notes/curso_react/react.html"
+  },
+  {
+      title: "SpringNotes",
+      description: "descipSpring",
+      link: "https://joakingc.github.io/notes/curso-spring/spring.html"
+  },
+  {
+    title: "VueNotes",
+    description: "descripVue",
+    link: "https://joakingc.github.io/notes/vue/que-es-vue.html"
+  },
+  {
+    title: "AWSNotes",
+    description: "descripAWS",
+    link: "https://joakingc.github.io/amazon-cloud/servicio-web.html"
+  },
+  {
+    title: "TFNotes",
+    description: "descripTF",
+    link: "https://joakingc.github.io/notes/curso-tenseflow/tensorflow.html"
+  },
+];
+
+export { services,tech,  testimonials, projects,experience,languages,notes};

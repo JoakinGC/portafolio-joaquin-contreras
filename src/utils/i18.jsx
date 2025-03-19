@@ -59,7 +59,21 @@ const resources = {
             "CalculadoraProject":"Calculator App",
             "desc10":"The application allows all users to perform mathematical operations. Using the Math.js library and hooks, I developed a calculator as a practice project when I started learning React.",
             "middenScada":"Thanks to Midden and Idrica, I gained valuable experience and knowledge in water systems. We developed a project that enabled communication among various types of sensors to issue alerts in hazardous situations. During this project, I greatly enhanced my skills in SCADA development for Qatar and in creating visual interfaces.",
-            "scadaScrum":"Moreover, through this project, we learned to fully leverage the advantages of agile methodologies by using Jira and working with an excellent team. This allowed us to make significant progress and stay organized efficiently, ultimately achieving our goal of creating and communicating the status of Qatar’s water systems."
+            "scadaScrum":"Moreover, through this project, we learned to fully leverage the advantages of agile methodologies by using Jira and working with an excellent team. This allowed us to make significant progress and stay organized efficiently, ultimately achieving our goal of creating and communicating the status of Qatar’s water systems.",
+            "FPDAMNotes": "FP Notes on Web and Multiplatform Application Development",
+            "descriFPDAM": "Notes on most subjects and concepts learned in each one.",
+            "JSNotes": "JavaScript Notes",
+            "descipJS": "Guide and references on JavaScript, from basics to advanced.",
+            "ReactNotes": "React Notes",
+            "descipReact": "Essential concepts and best practices in React for web application development.",    
+            "SpringNotes": "Spring Notes",
+            "descipSpring": "Guide on the Spring framework for backend development with Java.",
+            "VueNotes": "Vue Notes",
+            "descripVue": "Introduction and development with Vue.js for building modern web applications.",
+            "AWSNotes": "AWS Notes",
+            "descripAWS": "Key concepts and main services of Amazon Web Services (AWS).",
+            "TFNotes": "TensorFlow Notes",
+            "descripTF": "Machine learning and neural networks with TensorFlow."
         }
     },
     es: {
@@ -119,7 +133,21 @@ const resources = {
             "navBar4":"Mis Notas",
             "ToDoApp":"To-Do-App",
             "CalculadoraProject":"Calculadora App",
-            "desc10":"La aplicación permite a todos los usuarios realizar operaciones matemáticas. A través de la librería Math.js y el uso de hooks, desarrollé una calculadora como práctica al comenzar a aprender React."
+            "desc10":"La aplicación permite a todos los usuarios realizar operaciones matemáticas. A través de la librería Math.js y el uso de hooks, desarrollé una calculadora como práctica al comenzar a aprender React.",
+            "FPDAMNotes": "Notas de FP Desarrollo de Aplicaciones Web y Multiplataforma",
+            "descriFPDAM": "Notas de la mayoría de asignaturas y conceptos aprendidos en cada una.",
+            "JSNotes": "Notas de JavaScript",
+            "descipJS": "Guía y referencias sobre JavaScript, desde lo básico hasta avanzado.",
+            "ReactNotes": "Notas de React",
+            "descipReact": "Conceptos esenciales y mejores prácticas en React para el desarrollo de aplicaciones web.",
+            "SpringNotes": "Notas de Spring",
+            "descipSpring": "Guía sobre el framework Spring para el desarrollo backend con Java.",
+            "VueNotes": "Notas de Vue",
+            "descripVue": "Introducción y desarrollo con Vue.js para la construcción de aplicaciones web modernas.",
+            "AWSNotes": "Notas de AWS",
+            "descripAWS": "Conceptos clave y servicios principales de Amazon Web Services (AWS).",
+            "TFNotes": "Notas de TensorFlow",
+            "descripTF": "Aprendizaje automático y redes neuronales con TensorFlow."
         }
     }
 };
