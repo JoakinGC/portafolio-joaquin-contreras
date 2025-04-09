@@ -26,12 +26,11 @@ const WhatsAppButton = () => {
   }, []);
 
   const handleClick = (e) => {
-    e.preventDefault(); // Previene la navegación directa
+    e.preventDefault(); 
     setShowConsent(true);
   };
 
   const handleAccept = () => {
-    // Redirige a WhatsApp solo si el usuario acepta
     window.open('https://wa.me/34634017310', '_blank');
     setShowConsent(false);
   };
