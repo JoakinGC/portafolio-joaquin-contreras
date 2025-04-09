@@ -37,13 +37,13 @@ const App = () => {
           <Tech />
           
           {/*<Feedbacks />*/}
-          <div className='relative z-0'>
+          {/*<div className='relative z-0'>
             <Contact />
             <StarsCanvas />
-          </div>
+          </div>*/}
           <Footer/>
           <ToastContainer/>
-          <WhatsAppButton/>
+          {/*<WhatsAppButton/>*/}
         </div>
       </BrowserRouter>
     </I18nextProvider>
