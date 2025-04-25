@@ -291,7 +291,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/JoakinGC/Saas-posdcast",
-    link:"#"
+    link:"https://saas-podcasts-service-git-main-joaquins-projects-fb981f88.vercel.app"
   },
   {
     name: "Assistant",
