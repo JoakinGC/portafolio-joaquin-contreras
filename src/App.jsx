@@ -14,11 +14,14 @@ import {
   StarsCanvas,
   Notes,
   Footer,
-  WhatsAppButton
+  WhatsAppButton,
+  LegalNotice
 } from "./components";
 import "./styles/global.scss";
 import i18n from "./utils/i18";
 import {styles} from "../src/styles";
+import PrivacyPolicy from "./components/polities/PrivacyPolicy";
+import CookiesPolicy from "./components/polities/CookiesPolicy";
 
 
 const App = () => {
@@ -35,12 +38,16 @@ const App = () => {
           <Works />
           <Notes/>
           <Tech />
+
+          <PrivacyPolicy/>
+          <CookiesPolicy/>
+          <LegalNotice/>
           
           {/*<Feedbacks />*/}
-          {/*<div className='relative z-0'>
+          {<div className='relative z-0'>
             <Contact />
             <StarsCanvas />
-          </div>*/}
+          </div>}
           <Footer/>
           <ToastContainer/>
           {/*<WhatsAppButton/>*/}

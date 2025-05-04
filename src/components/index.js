@@ -11,6 +11,9 @@ import CanvasLoader from "./Loader";
 import Notes from './Notes';
 import Footer from './Footer';
 import WhatsAppButton from './WhatsAppButton';
+import CookiesPolicy from './polities/CookiesPolicy';
+import LegalNotice from './polities/LegalNotice';
+import PrivacyPolicy from './polities/PrivacyPolicy';
 
 
 export {
@@ -29,5 +32,8 @@ export {
   EarthCanvas, 
   BallCanvas, 
   ComputersCanvas, 
-  StarsCanvas
+  StarsCanvas,
+  PrivacyPolicy,
+  LegalNotice,
+  CookiesPolicy
 };
