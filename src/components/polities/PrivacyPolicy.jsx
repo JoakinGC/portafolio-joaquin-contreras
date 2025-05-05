@@ -5,7 +5,7 @@ const PrivacyPolicy= () => {
   const { t } = useTranslation();
 
   return (
-    <main className="container mx-auto px-4 py-10 prose dark:prose-invert space-y-4 leading-relaxed text-justify">
+    <main className="container mx-auto py-20 px-4 prose dark:prose-invert space-y-4 leading-relaxed text-justify">
       <h1 className="text-4xl font-extrabold mb-6 text-center">
         {t("privacyPolicys.title")}
       </h1>

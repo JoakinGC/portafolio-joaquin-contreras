@@ -7,7 +7,7 @@ const CookiesPolicy = () => {
 
   return (
     <section
-      className={`${styles.paddingX} prose prose-lg space-y-4 leading-relaxed text-justify`}
+      className={`${styles.paddingX} py-20 prose prose-lg space-y-4 leading-relaxed text-justify`}
     >
 
       <h1 className="text-4xl font-extrabold mb-6 text-center">

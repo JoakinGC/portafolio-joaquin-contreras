@@ -267,6 +267,7 @@ const resources = {
               "legalNotice":"Legal Notice",
               "privacyPolicy":"Privacy Policy",
               "cookiesPolicy":"Cookies Policy",
+              "allRightsReserved":"all rights reserved"
             }
         }
     },
@@ -534,6 +535,7 @@ const resources = {
               "legalNotice":"Aviso legal",
               "privacyPolicy":"Políticas de Privacidad",
               "cookiesPolicy":"Políticas de Cookies",
+              "allRightsReserved":"reservados todos los derechos"
             }
         }
     }

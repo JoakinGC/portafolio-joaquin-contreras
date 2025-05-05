@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="text-black dark:text-white p-8 flex flex-col md:flex-row md:justify-between gap-4 text-sm">
       <p>
-        © 2025 Gaston Joaquin Contreras. {t("footer.allRightsReserved")}
+        © 2025 Gaston Joaquin Contreras {t("footer.allRightsReserved")}
       </p>
 
       <nav className="flex gap-4 underline-offset-4">

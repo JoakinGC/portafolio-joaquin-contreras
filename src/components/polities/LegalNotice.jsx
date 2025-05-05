@@ -6,7 +6,7 @@ const LegalNotice = () => {
   const { t } = useTranslation();
 
   return (
-      <section className={`${styles.paddingX} prose prose-lg  space-y-4 leading-relaxed text-justify`}>
+      <section className={`${styles.paddingX} prose prose-lg py-20 space-y-4 leading-relaxed text-justify`}>
         <h1 className="text-4xl font-extrabold mb-6 text-center">
           {t("LegalNotice.title")}
         </h1>
