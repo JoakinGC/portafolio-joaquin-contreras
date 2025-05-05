@@ -41,7 +41,7 @@ const App = () => {
 
           <PrivacyPolicy/>
           <CookiesPolicy/>
-          <LegalNotice/>
+          {/*<LegalNotice/>*/}
           
           {/*<Feedbacks />*/}
           {<div className='relative z-0'>

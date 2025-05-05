@@ -4,7 +4,132 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
     en: {
         translation: {
-            "LegalNotice": {
+            "cookiesPolicy": {
+                "title": "COOKIES POLICY https://joakingc.github.io/",
+                "paragraph1": "Access to this Website may involve the use of cookies. Cookies are small amounts of information stored in the browser used by each User —across the various devices they may use to browse— so that the server remembers certain information that only the server that implemented it will later read. Cookies make browsing easier, more user-friendly, and do not harm the browsing device.",
+                "paragraph2": "Cookies are automatic procedures for collecting information related to the preferences determined by the User during their visit to the Website in order to recognise them as a User and personalise their experience and use of the Website. They may also, for example, help to identify and resolve errors.",
+                "paragraph3": "The information collected through cookies may include the date and time of visits to the Website, the pages viewed, the time spent on the Website, and the sites visited just before and after it. However, no cookie allows contact with the User’s phone number or any other means of personal contact. No cookie can extract information from the User’s hard drive or steal personal information. The only way a User’s private information becomes part of the cookie file is if the user personally provides that information to the server.",
+                "paragraph4": "Cookies that make it possible to identify a person are considered personal data. Therefore, the Privacy Policy described above shall apply to them. In this regard, the use of such cookies requires the User’s consent. This consent will be communicated based on a genuine choice, given by an affirmative and positive action, prior to initial processing, and must be revocable and documented.",
+                "titleCokkies": "Own cookies",
+                "paragraph5": "These are cookies that are sent to the User’s computer or device and managed exclusively by Portafolio Joaquin for the better operation of the Website. The information collected is used to improve the quality of the Website, its Content, and the User’s experience. These cookies allow the User to be recognised as a returning visitor to the Website and enable content to be tailored to suit their preferences.",
+                "deleteCookies": "Disable, reject, and delete cookies",
+                "paragraph6": "The User can disable, reject, and delete the cookies —in whole or in part— installed on their device by configuring their browser settings (such as Chrome, Firefox, Safari, Explorer). In this respect, procedures for rejecting and deleting cookies may differ from one Internet browser to another. Therefore, the User should refer to the instructions provided by the specific Internet browser being used. If the User chooses to reject the use of cookies —in whole or in part— they may still use the Website, although the use of some of its features may be limited.",
+                "paragraph7": "This Cookies Policy document was created using the free online web cookies policy template generator on 05/05/2025."
+              }
+            ,"privacyPolicys": {
+              "title": "WEBSITE PRIVACY POLICY https://joakingc.github.io/",
+              "privacyAndDataProtectionPolicy": {
+                "title": "I. PRIVACY AND DATA PROTECTION POLICY",
+                "paragraph1": "In compliance with current legislation, Portafolio Joaquin (hereinafter, the Website) undertakes to adopt the necessary technical and organisational measures, according to the level of security appropriate to the risk of the data collected.",
+                "LawsPrivacyPolicy": {
+                  "paragraph1": "This privacy policy is adapted to current Spanish and European regulations on the protection of personal data on the Internet. Specifically, it complies with the following rules:",
+                  "listItem": {
+                    "item1": "Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (GDPR).",
+                    "item2": "Organic Law 3/2018, of 5 December, on the Protection of Personal Data and guarantee of digital rights (LOPD‑GDD).",
+                    "item3": "Royal Decree 1720/2007, of 21 December, approving the Regulation implementing Organic Law 15/1999, of 13 December, on the Protection of Personal Data (RDLOPD).",
+                    "item4": "Law 34/2002, of 11 July, on Information Society Services and Electronic Commerce (LSSI‑CE)."
+                  }
+                },
+                "dataResponsible": {
+                  "paragraph1": "The controller of the personal data collected on Portafolio Joaquin is: Gaston Joaquin Contreras, NIF: Y9892262E (hereinafter, Data Controller). Contact details:",
+                  "direction": "Address: La cumbre 7, San Vicente de Raspeig, Alicante",
+                  "tel": "Contact phone: 634017310",
+                  "email": "Contact email: joakingcontreras2@gmail.com"
+                },
+                "personalDataRegistry": "Personal Data Registry",
+                "paragraph2": "In accordance with the GDPR and the LOPD‑GDD, we inform you that the personal data collected by Portafolio Joaquin through the forms on its pages will be incorporated into and processed in our file in order to facilitate, expedite and fulfil the commitments established between Portafolio Joaquin and the User or to maintain the relationship established in the forms completed by the User, or to respond to a request or query. Likewise, unless the exception provided for in Article 30.5 of the GDPR applies, a record of processing activities is kept that specifies, according to their purposes, the processing activities carried out and the other circumstances established in the GDPR.",
+                "principlesApplicable": {
+                  "title": "Principles applicable to the processing of personal data",
+                  "paragraph1": "The processing of the User’s personal data will be subject to the following principles, as set out in Article 5 of the GDPR and Articles 4 et seq. of Organic Law 3/2018:",
+                  "items": {
+                    "item1": "Lawfulness, fairness and transparency: the User’s consent will be required at all times after fully transparent information on the purposes for which the personal data are collected.",
+                    "item2": "Purpose limitation: personal data will be collected for specific, explicit and legitimate purposes.",
+                    "item3": "Data minimisation: personal data collected will be only those strictly necessary in relation to the purposes for which they are processed.",
+                    "item4": "Accuracy: personal data must be accurate and kept up to date at all times.",
+                    "item5": "Storage limitation: personal data will be kept in a form which permits identification of the User for no longer than is necessary for the purposes of processing.",
+                    "item6": "Integrity and confidentiality: personal data will be processed in a manner that ensures their security and confidentiality.",
+                    "item7": "Accountability: the Data Controller will be responsible for compliance with the above principles."
+                  }
+                },
+                "categorysPersonalData": {
+                  "title": "Categories of personal data",
+                  "paragraph1": "The categories of data processed on Portafolio Joaquin are solely identifying data. Special categories of personal data within the meaning of Article 9 of the GDPR are not processed."
+                },
+                "legalBasis": {
+                  "title": "Legal basis for processing personal data",
+                  "paragraph1": "The legal basis for processing personal data is consent. Portafolio Joaquin undertakes to obtain the User’s express and verifiable consent for the processing of their personal data for one or more specific purposes.",
+                  "paragraph2": "The User has the right to withdraw consent at any time. Withdrawal of consent shall be as easy as giving it and, as a general rule, shall not condition use of the Website.",
+                  "paragraph3": "When the User must or may provide their data through forms to make enquiries, request information or for matters related to the content of the Website, they will be informed if the completion of any of them is mandatory because they are essential for the proper development of the operation carried out."
+                },
+                "destinationOfTheData": {
+                  "title": "Purposes for which personal data are processed",
+                  "paragraph1": "Personal data are collected and managed by Portafolio Joaquin in order to facilitate, expedite and fulfil the commitments established between the Website and the User or to maintain the relationship established in the forms completed by the User or to respond to a request or query.",
+                  "paragraph2": "Data may likewise be used for commercial customisation, operational and statistical purposes and activities related to the corporate purpose of Portafolio Joaquin, as well as for the extraction, storage of data and marketing studies to adapt the content offered to the User and improve the quality, operation and browsing of the Website.",
+                  "paragraph3": "At the time personal data are obtained, the User will be informed of the specific purpose(s) of the processing; that is, the use(s) that will be made of the information collected."
+                },
+                "retentionPeriods": {
+                  "title": "Retention periods for personal data",
+                  "paragraph1": "Personal data will be retained only for the minimum time necessary for the purposes of processing and, in any case, only for the following period: 18 months, or until the User requests their deletion.",
+                  "paragraph2": "At the time personal data are obtained, the User will be informed of the period for which the personal data will be retained or, when that is not possible, the criteria used to determine this period."
+                },
+                "recipientsPersonalData": {
+                  "title": "Recipients of personal data",
+                  "paragraph1": "The User’s personal data will be shared with the following recipients or categories of recipients:",
+                  "paragraph2": "EmailJS Pte. Ltd., address 139 Cecil Street, #03‑10, YSY Building, Singapore 069539; Google LLC, address 1600 Amphitheatre Parkway, Mountain View, CA 94043, United States.",
+                  "paragraph3": "If the Data Controller intends to transfer personal data to a third country or an international organisation, the User will be informed, at the time the personal data are obtained, of the third country or international organisation to which it is intended to transfer the data, as well as of the existence or absence of an adequacy decision by the Commission."
+                },
+                "personalDataOfMinors": {
+                  "title": "Personal data of minors",
+                  "paragraph1": "In accordance with Articles 8 of the GDPR and 7 of Organic Law 3/2018, only persons over 14 years of age may lawfully give consent for the processing of their personal data by Portafolio Joaquin. Where the data subject is under 14 years of age, the consent of parents or guardians will be required for processing, and it will be lawful only to the extent that they have authorised it."
+                },
+                "secrecyAndSecurityOfPersonalData": {
+                  "title": "Secrecy and security of personal data",
+                  "paragraph1": "Portafolio Joaquin undertakes to adopt the necessary technical and organisational measures, according to the level of security appropriate to the risk of the data collected, so as to guarantee the security of personal data and prevent their accidental or unlawful destruction, loss or alteration, or unauthorised communication or access.",
+                  "paragraph2": "However, because Portafolio Joaquin cannot guarantee the invulnerability of the Internet or the total absence of hackers or others who might fraudulently access personal data, the Data Controller undertakes to notify the User without undue delay when a personal data breach occurs that is likely to result in a high risk to the rights and freedoms of natural persons. Pursuant to Article 4 of the GDPR, a personal data breach means a breach of security leading to the accidental or unlawful destruction, loss or alteration of personal data transmitted, stored or otherwise processed, or unauthorised disclosure of or access to such data.",
+                  "paragraph3": "Personal data will be treated as confidential by the Data Controller, who undertakes to inform and to guarantee, by means of a legal or contractual obligation, that such confidentiality is respected by employees, partners and any person to whom the information is made accessible."
+                },
+                "RightsFromProcessingOfPersonalData": {
+                  "title": "Rights arising from the processing of personal data",
+                  "paragraph1": "The User has, over Portafolio Joaquin, and may therefore exercise against the Data Controller, the following rights recognised in the GDPR and Organic Law 3/2018:",
+                  "listDigitalRights": {
+                    "item1": "Right of access: the User’s right to obtain confirmation as to whether Portafolio Joaquin is processing their personal data and, if so, to obtain information about their specific personal data and the processing Portafolio Joaquin has carried out or is carrying out, as well as, among other things, the information available about the origin of such data and the recipients of the disclosures made or planned.",
+                    "item2": "Right of rectification: the User’s right to have their personal data amended if they are inaccurate or, taking into account the purposes of the processing, incomplete.",
+                    "item3": "Right of erasure (\"the right to be forgotten\"): the User’s right, unless otherwise provided by current legislation, to obtain the erasure of their personal data when they are no longer necessary for the purposes for which they were collected or processed; the User has withdrawn their consent and there is no other legal basis; the User objects to the processing and there is no other legitimate reason to continue it; the personal data have been processed unlawfully; the personal data must be erased in compliance with a legal obligation; or the personal data have been obtained as a result of an offer of information society services made directly to a child under 14 years of age. In addition to erasing the data, the Data Controller, considering the available technology and the cost of implementation, must take reasonable steps to inform controllers processing the personal data of the data subject’s request to erase any links to those personal data.",
+                    "item4": "Right to restriction of processing: the User’s right to restrict the processing of their personal data. The User has the right to obtain restriction of processing where they contest the accuracy of their personal data; the processing is unlawful; the Data Controller no longer needs the personal data, but the User needs them for the establishment, exercise or defence of claims; and when the User has objected to the processing.",
+                    "item5": "Right to data portability: where processing is carried out by automated means, the User has the right to receive from the Data Controller their personal data in a structured, commonly used and machine‑readable format and to transmit them to another controller. Whenever technically feasible, the Data Controller will transmit the data directly to that other controller.",
+                    "item6": "Right to object: the User’s right to object to the processing of their personal data or to have the processing of their personal data by Portafolio Joaquin ceased.",
+                    "item7": "Right not to be subject to a decision based solely on automated processing, including profiling: the User’s right not to be subject to an individualised decision based solely on automated processing of their personal data, including profiling, unless current legislation provides otherwise."
+                  },
+                  "paragraph2": "Thus, the User may exercise their rights by written communication addressed to the Data Controller with the reference \"GDPR‑https://joakingc.github.io/\", specifying:",
+                  "listOfRequireForComuni": {
+                    "item1": "Name and surname of the User and a copy of the ID document. In the cases in which representation is accepted, identification by the same means of the person representing the User, as well as the document accrediting the representation, will also be necessary. The photocopy of the ID may be replaced, by any other legally valid means that proves identity.",
+                    "item2": "Request with the specific reasons for the request or information to which access is sought.",
+                    "item3": "Address for notification purposes.",
+                    "item4": "Date and signature of the applicant.",
+                    "item5": "Any document that substantiates the request being made."
+                  },
+                  "paragraph3": "This request and any other attached document may be sent to the following address and/or e‑mail:",
+                  "paragraph4": "Postal address: La cumbre 7, San Vicente de Raspeig, Alicante",
+                  "paragraph5": "E‑mail: joakingcontreras2@gmail.com"
+                },
+                "linksThirdPartyWebsites": {
+                  "title": "Links to third‑party websites",
+                  "paragraph1": "The Website may include hyperlinks or links that allow access to third‑party web pages other than Portafolio Joaquin and which are therefore not operated by Portafolio Joaquin. The owners of such websites will have their own data‑protection policies and will themselves be, in each case, responsible for their own files and their own privacy practices."
+                },
+                "complaintsSupervisoryAuthority": {
+                  "title": "Complaints to the supervisory authority",
+                  "paragraph1": "If the User considers that there is a problem or infringement of current regulations in the way their personal data are being processed, they have the right to effective judicial protection and to file a complaint with a supervisory authority, in particular in the State where they have their habitual residence, place of work or place of the alleged infringement. In Spain, the supervisory authority is the Spanish Data Protection Agency (https://www.aepd.es/)."
+                }
+              },
+              "acceptanceAndChangesPrivacyPolicy": {
+                "title": "II. ACCEPTANCE AND CHANGES TO THIS PRIVACY POLICY",
+                "paragraph1": "It is necessary that the User has read and agrees with the conditions regarding the protection of personal data contained in this Privacy Policy, as well as accepts the processing of their personal data so that the Data Controller can proceed with it in the manner, during the periods and for the purposes indicated. Use of the Website implies acceptance of its Privacy Policy.",
+                "paragraph2": "Portafolio Joaquin reserves the right to modify its Privacy Policy, according to its own criteria, or motivated by a legislative, jurisprudential or doctrinal change of the Spanish Data Protection Agency. Changes or updates to this Privacy Policy will not be explicitly notified to the User. The User is recommended to consult this page periodically to be aware of the latest changes or updates.",
+                "paragraph3": "This Privacy Policy was updated to comply with Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data (GDPR) and Organic Law 3/2018, of 5 December, on the Protection of Personal Data and guarantee of digital rights.",
+                "paragraph4": "This Website Privacy Policy document was created using the free online web privacy‑policy template generator on 05/05/2025."
+              }
+            }
+          ,"LegalNotice": {
                             "title": "LEGAL NOTICE AND GENERAL TERMS OF USE https://joakingc.github.io/",
                             "generalInformation": {
                               "title": "I. GENERAL INFORMATION",
@@ -141,7 +266,19 @@ const resources = {
     },
     es: {
         translation: {
-          "privacyPolicys":{
+          "cookiesPolicy":{
+            "title":"POLÍTICA DE COOKIES https://joakingc.github.io/",
+            "paragraph1":"El acceso a este Sitio Web puede implicar la utilización de cookies. Las cookies son pequeñas cantidades de información que se almacenan en el navegador utilizado por cada Usuario —en los distintos dispositivos que pueda utilizar para navegar— para que el servidor recuerde cierta información que posteriormente y únicamente el servidor que la implementó leerá. Las cookies facilitan la navegación, la hacen más amigable, y no dañan el dispositivo de navegación.",
+            "paragraph2":"Las cookies son procedimientos automáticos de recogida de información relativa a las preferencias determinadas por el Usuario durante su visita al Sitio Web con el fin de reconocerlo como Usuario, y personalizar su experiencia y el uso del Sitio Web, y pueden también, por ejemplo, ayudar a identificar y resolver errores.",
+            "paragraph3":"La información recabada a través de las cookies puede incluir la fecha y hora de visitas al Sitio Web, las páginas visionadas, el tiempo que ha estado en el Sitio Web y los sitios visitados justo antes y después del mismo. Sin embargo, ninguna cookie permite que esta misma pueda contactarse con el número de teléfono del Usuario o con cualquier otro medio de contacto personal. Ninguna cookie puede extraer información del disco duro del Usuario o robar información personal. La única manera de que la información privada del Usuario forme parte del archivo Cookie es que el usuario dé personalmente esa información al servidor.",
+            "paragraph4":"Las cookies que permiten identificar a una persona se consideran datos personales. Por tanto, a las mismas les será de aplicación la Política de Privacidad anteriormente descrita. En este sentido, para la utilización de las mismas será necesario el consentimiento del Usuario. Este consentimiento será comunicado, en base a una elección auténtica, ofrecido mediante una decisión afirmativa y positiva, antes del tratamiento inicial, removible y documentado.",
+            "titleCokkies":"Cookies propias",
+            "paragraph5":"Son aquellas cookies que son enviadas al ordenador o dispositivo del Usuario y gestionadas exclusivamente por Portafolio Joaquin para el mejor funcionamiento del Sitio Web. La información que se recaba se emplea para mejorar la calidad del Sitio Web y su Contenido y su experiencia como Usuario. Estas cookies permiten reconocer al Usuario como visitante recurrente del Sitio Web y adaptar el contenido para ofrecerle contenidos que se ajusten a sus preferencias.",
+            "deleteCookies":"Deshabilitar, rechazar y eliminar cookies",
+            "paragraph6":"El Usuario puede deshabilitar, rechazar y eliminar las cookies —total o parcialmente— instaladas en su dispositivo mediante la configuración de su navegador (entre los que se encuentran, por ejemplo, Chrome, Firefox, Safari, Explorer). En este sentido, los procedimientos para rechazar y eliminar las cookies pueden diferir de un navegador de Internet a otro. En consecuencia, el Usuario debe acudir a las instrucciones facilitadas por el propio navegador de Internet que esté utilizando. En el supuesto de que rechace el uso de cookies —total o parcialmente— podrá seguir usando el Sitio Web, si bien podrá tener limitada la utilización de algunas de las prestaciones del mismo.",
+            "paragraph7":"Este documento de Política de Cookies ha sido creado mediante el generador de plantilla de política de cookies web gratis online el día 05/05/2025.",
+          }
+          ,"privacyPolicys":{
             "title":"POLÍTICA DE PRIVACIDAD DEL SITIO WEB https://joakingc.github.io/",
             "privacyAndDataProtectionPolicy":{
               "title":"I. POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS",
