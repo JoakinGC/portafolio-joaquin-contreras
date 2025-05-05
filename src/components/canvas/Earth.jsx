@@ -2,7 +2,7 @@ import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF,Environment  } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../generic/Loader";
 
 const Earth = () => {
   const earth = useGLTF("./kamisama/scene.gltf");

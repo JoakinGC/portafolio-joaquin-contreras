@@ -56,10 +56,10 @@ export const navLinks = [
     id: "work",
     title: "navBar2",
   },
-  /*{
+  {
     id: "contact",
     title: "Contacto",
-  },*/
+  },
   {
     id: "notes",
     title: "navBar4",

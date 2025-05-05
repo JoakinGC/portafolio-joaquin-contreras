@@ -2,12 +2,12 @@ import React, { useRef } from "react";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 import { FaGithub } from "react-icons/fa";
 import "react-vertical-timeline-component/style.min.css";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapper } from "../../hoc";
 import { useTranslation } from "react-i18next";
 import "react-vertical-timeline-component/style.min.css";
-import "../styles/global.scss";
-import { experience } from "../constants";
-import {styles} from "../styles";
+import "../../styles/global.scss";
+import { experience } from "../../constants";
+import {styles} from "../../styles";
 
 
 const ExperienceCard = ({ item }) => {

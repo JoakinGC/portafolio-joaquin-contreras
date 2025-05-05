@@ -3,10 +3,10 @@ import { DndProvider } from "react-dnd";
 import { HTML5Backend } from "react-dnd-html5-backend";
 import { motion, AnimatePresence } from "framer-motion"; 
 import DraggableTech from "./DraggableTech";
-import { SectionWrapper } from "../hoc";
-import { tech } from "../constants";
+import { SectionWrapper } from "../../hoc";
+import { tech } from "../../constants";
 import { useTranslation } from "react-i18next";
-import { styles } from "../styles";
+import { styles } from "../../styles";
 import { FaCircleChevronUp, FaCircleChevronDown } from "react-icons/fa6";
 
 const categoryVariants = {

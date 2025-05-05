@@ -2,7 +2,7 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF, Environment } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
+import CanvasLoader from "../generic/Loader";
 
 const Computers = ({ isMobile }) => {
   const computer = useGLTF("./imac/scene.gltf");

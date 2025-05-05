@@ -1,8 +1,8 @@
 import React, { useRef } from "react";
 import { useTranslation } from "react-i18next";
-import { SectionWrapper } from "../hoc";
+import { SectionWrapper } from "../../hoc";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
-import { notes } from "../constants";
+import { notes } from "../../constants";
 
 
 const NoteCard = ({ note,t }) => {

@@ -37,12 +37,7 @@ const App = () => {
           <Experience />
           <Works />
           <Notes/>
-          <Tech />
-
-          <PrivacyPolicy/>
-          <CookiesPolicy/>
-          {/*<LegalNotice/>*/}
-          
+          <Tech />         
           {/*<Feedbacks />*/}
           {<div className='relative z-0'>
             <Contact />
@@ -50,7 +45,7 @@ const App = () => {
           </div>}
           <Footer/>
           <ToastContainer/>
-          {/*<WhatsAppButton/>*/}
+          <WhatsAppButton/>
         </div>
       </BrowserRouter>
     </I18nextProvider>

@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { useTranslation } from 'react-i18next';
 import { toast } from "react-toastify";        
-import { styles } from "../styles";
-import { EarthCanvas } from "./canvas";
-import { SectionWrapper } from "../hoc";
-import { slideIn } from "../utils/motion";
+import { styles } from "../../styles";
+import { EarthCanvas } from "../canvas";
+import { SectionWrapper } from "../../hoc";
+import { slideIn } from "../../utils/motion";
 
 const Contact = () => {
   const { t } = useTranslation();

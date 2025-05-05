@@ -261,7 +261,13 @@ const resources = {
             "AWSNotes": "AWS Notes",
             "descripAWS": "Key concepts and main services of Amazon Web Services (AWS).",
             "TFNotes": "TensorFlow Notes",
-            "descripTF": "Machine learning and neural networks with TensorFlow."
+            "descripTF": "Machine learning and neural networks with TensorFlow.",
+
+            "footer":{
+              "legalNotice":"Legal Notice",
+              "privacyPolicy":"Privacy Policy",
+              "cookiesPolicy":"Cookies Policy",
+            }
         }
     },
     es: {
@@ -522,7 +528,13 @@ const resources = {
             "AWSNotes": "Notas de AWS",
             "descripAWS": "Conceptos clave y servicios principales de Amazon Web Services (AWS).",
             "TFNotes": "Notas de TensorFlow",
-            "descripTF": "Aprendizaje automático y redes neuronales con TensorFlow."
+            "descripTF": "Aprendizaje automático y redes neuronales con TensorFlow.",
+
+            "footer":{
+              "legalNotice":"Aviso legal",
+              "privacyPolicy":"Políticas de Privacidad",
+              "cookiesPolicy":"Políticas de Cookies",
+            }
         }
     }
 };
