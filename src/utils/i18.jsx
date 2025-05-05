@@ -4,11 +4,68 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
     en: {
         translation: {
-
-
-
-
-
+            "LegalNotice": {
+                            "title": "LEGAL NOTICE AND GENERAL TERMS OF USE https://joakingc.github.io/",
+                            "generalInformation": {
+                              "title": "I. GENERAL INFORMATION",
+                              "paragraph1": "In compliance with the duty of information set out in Law 34/2002 on Information Society Services and Electronic Commerce (LSSI‑CE) of 11 July, the following general information about this website is provided:",
+                              "paragraph2": "The ownership of this website, https://joakingc.github.io/ (hereinafter, the Website), is held by: Gaston Joaquin Contreras, with tax ID: Y9892262E, whose contact details are:",
+                              "direction": "Address: La Cumbre 7, San Vicente de Raspeig, Alicante",
+                              "phone": "Contact phone: 634 017 310",
+                              "email": "Contact email: joakingcontreras2@gmail.com"
+                            },
+                            "generalTermsAndCondi": {
+                              "title": "II. GENERAL TERMS AND CONDITIONS OF USE",
+                              "subtitle": "Purpose of the terms: the Website",
+                              "paragraph1": "The purpose of these General Terms of Use (hereinafter, the Terms) is to regulate access to and use of the Website. For the purposes of these Terms, the Website shall be understood to include: the external appearance of the screen interfaces, both static and dynamic, i.e. the navigation tree; and all elements integrated into the screen interfaces and in the navigation tree (hereinafter, the Contents), as well as any online services or resources that may be offered to Users (hereinafter, the Services).",
+                              "paragraph2": "Joaquin Contreras Portfolio reserves the right to modify, at any time and without prior notice, the presentation and configuration of the Website and of the Contents and Services incorporated therein. The User acknowledges and accepts that Joaquin Contreras Portfolio may, at any time, interrupt, disable and/or cancel any of these elements integrated into the Website or access to them.",
+                              "paragraph3": "Access to the Website by the User is free of charge and, as a general rule, does not require the User to provide any consideration, except for the cost of connection through the telecommunications network supplied by the access provider contracted by the User.",
+                              "paragraph4": "Use of some of the Website's Contents or Services may require the User to subscribe or register in advance.",
+                              "userTitle": "The User",
+                              "paragraph5": "Access, browsing and use of the Website, as well as the spaces enabled for interaction between Users and between the User and Joaquin Contreras Portfolio (such as comments and/or blogging spaces), confer the condition of User. From the moment browsing the Website begins, all the Terms set out herein are accepted, together with any subsequent modifications, without prejudice to the application of the relevant mandatory legal regulations where appropriate. Given the importance of the foregoing, the User is recommended to read them each time they visit the Website.",
+                              "paragraph6": "The Joaquin Contreras Portfolio Website offers a wide range of information, services and data. The User assumes responsibility for making proper use of the Website. This responsibility extends to:",
+                              "item1": "Using the information, Contents and/or Services and data offered by Joaquin Contreras Portfolio in a manner that is not contrary to these Terms, the law, morality or public order, or that could otherwise harm the rights of third parties or the operation of the Website itself.",
+                              "item2": "The truthfulness and legality of the information provided by the User in the forms issued by Joaquin Contreras Portfolio for access to certain Contents or Services offered by the Website. In any case, the User shall immediately notify Joaquin Contreras Portfolio of any event that allows the misuse of the information recorded in such forms, such as, but not limited to, theft, loss, or unauthorized access to identifiers and/or passwords, in order to proceed with their immediate cancellation.",
+                              "paragraph7": "Joaquin Contreras Portfolio reserves the right to remove any comments and contributions that violate the law, respect for human dignity, that are discriminatory, xenophobic, racist, pornographic, spam, that threaten youth or childhood, public order or safety, or that, in its opinion, are not suitable for publication.",
+                              "paragraph8": "In any case, Joaquin Contreras Portfolio will not be responsible for the opinions expressed by Users through comments or other blogging or participation tools that may exist.",
+                              "paragraph9": "Mere access to this Website does not imply any type of commercial relationship between Joaquin Contreras Portfolio and the User.",
+                              "paragraph10": "The User declares to be of legal age and to have sufficient legal capacity to be bound by these Terms. Therefore, this Website is not directed to minors. Joaquin Contreras Portfolio disclaims any responsibility for non‑compliance with this requirement.",
+                              "paragraph11": "The Website is primarily aimed at Users residing in Spain. Joaquin Contreras Portfolio does not guarantee that the Website complies with the legislation of other countries, either in whole or in part. If the User resides or is domiciled elsewhere and decides to access and/or browse the Website, they will do so under their own responsibility and must ensure that such access and browsing comply with the local legislation applicable to them; Joaquin Contreras Portfolio assumes no responsibility that may arise from such access."
+                            },
+                            "accessAndNavigation": {
+                              "title": "III. ACCESS AND BROWSING ON THE WEBSITE: DISCLAIMER OF WARRANTIES AND LIABILITY",
+                              "paragraph1": "Joaquin Contreras Portfolio does not guarantee the continuity, availability or usefulness of the Website, nor of its Contents or Services. Joaquin Contreras Portfolio will make every effort to ensure the proper functioning of the Website; however, it is not responsible for and does not guarantee that access to this Website will be uninterrupted or error‑free.",
+                              "paragraph2": "Neither does it guarantee or accept responsibility that the content or software that may be accessed through this Website is error‑free or causes damage to the User’s computer system (software and hardware). Under no circumstances shall Joaquin Contreras Portfolio be liable for any losses, damages or harm of any kind arising from access to, browsing or use of the Website, including, but not limited to, those caused to computer systems or those caused by the introduction of viruses.",
+                              "paragraph3": "Joaquin Contreras Portfolio is also not liable for any damages that may be caused to users by improper use of this Website. In particular, it is in no way responsible for any falls, interruptions, lack or defect in telecommunications that may occur."
+                            },
+                            "linksPolicy": {
+                              "title": "IV. LINKS POLICY",
+                              "paragraph1": "Users are informed that the Joaquin Contreras Portfolio Website makes or may make available linking mechanisms (such as, among others, links, banners, buttons), directories and search engines that allow Users to access websites belonging to and/or managed by third parties.",
+                              "paragraph2": "The installation of these links, directories and search engines on the Website is intended to facilitate Users’ search for and access to information available on the Internet, and should not be considered a suggestion, recommendation or invitation to visit them.",
+                              "paragraph3": "Joaquin Contreras Portfolio does not offer or market, itself or through third parties, the products and/or services available on such linked sites.",
+                              "paragraph4": "Nor will it guarantee the technical availability, accuracy, truthfulness, validity or legality of sites outside its ownership that can be accessed through the links.",
+                              "paragraph5": "Joaquin Contreras Portfolio will not, in any case, review or control the content of other websites, nor does it approve, examine or make its own the products and services, contents, files and any other material existing on the linked sites mentioned.",
+                              "paragraph6": "Joaquin Contreras Portfolio assumes no responsibility for any damages that may arise from access, use, quality or legality of the contents, communications, opinions, products and services of websites not managed by Joaquin Contreras Portfolio and which are linked to on this Website.",
+                              "paragraph7": "The User or third party who makes a hyperlink from another web page to the Joaquin Contreras Portfolio Website must be aware that:",
+                              "paragraph8": "The total or partial reproduction of any of the Contents and/or Services of the Website is not permitted without the express authorization of Joaquin Contreras Portfolio.",
+                              "paragraph9": "No false, inaccurate or incorrect statement about the Joaquin Contreras Portfolio Website, nor about its Contents and/or Services, is permitted.",
+                              "paragraph10": "Except for the hyperlink, the website in which such hyperlink is established shall not contain any element of this Website that is protected as intellectual property under Spanish law, unless expressly authorized by Joaquin Contreras Portfolio.",
+                              "paragraph11": "The establishment of the hyperlink does not imply the existence of relations between Joaquin Contreras Portfolio and the owner of the website from which it is made, nor the knowledge and acceptance by Joaquin Contreras Portfolio of the contents, services and/or activities offered on said website, and vice versa."
+                            },
+                            "intellectAndIndusProperty": {
+                              "title": "V. INTELLECTUAL AND INDUSTRIAL PROPERTY",
+                              "paragraph1": "Joaquin Contreras Portfolio, by itself or as assignee, is the holder of all intellectual and industrial property rights of the Website, as well as of the elements contained therein (including but not limited to images, sound, audio, video, software or texts, trademarks or logos, combinations of colors, structure and design, selection of used materials, computer programs necessary for its operation, access and use, etc.). Consequently, they are protected works under the Spanish legal system, being applicable both Spanish and European regulations in this field, as well as international treaties relating to the subject and signed by Spain.",
+                              "paragraph2": "All rights reserved. By virtue of the provisions of the Intellectual Property Law, the reproduction, distribution and public communication, including the modality of making available, of all or part of the contents of this website for commercial purposes, in any medium and by any technical means, without the authorization of Joaquin Contreras Portfolio, are expressly prohibited.",
+                              "paragraph3": "The User undertakes to respect the intellectual and industrial property rights of Joaquin Contreras Portfolio. The User may view the elements of the Website and print, copy and store them on the hard drive of their computer or on any other physical support provided it is solely for their personal use. The User may not, however, remove, alter or manipulate any protection device or security system installed on the Website.",
+                              "paragraph4": "In the event that the User or a third party considers that any of the contents of the Website constitutes a violation of intellectual property protection rights, they must immediately inform Joaquin Contreras Portfolio using the contact details provided in the GENERAL INFORMATION section of this Legal Notice and Terms of Use."
+                            },
+                            "legalActions": {
+                              "title": "VI. LEGAL ACTIONS, APPLICABLE LAW AND JURISDICTION",
+                              "paragraph1": "Joaquin Contreras Portfolio reserves the right to bring any civil or criminal actions it deems necessary for improper use of the Website and its Contents, or for breach of these Terms.",
+                              "paragraph2": "The relationship between the User and Joaquin Contreras Portfolio shall be governed by the current regulations applicable in the Spanish territory. Should any controversy arise in relation to the interpretation and/or application of these Terms, the parties shall submit their disputes to the ordinary jurisdiction, submitting themselves to the judges and courts that correspond according to law.",
+                              "paragraph3": "This document of Legal Notice and General Terms of Use of the website was created using the online legal notice and terms of use template generator on 04/05/2025."
+                            }
+                          },
 
             "Introduction": "Introduction",
             "Summary": "Summary",
@@ -84,7 +141,119 @@ const resources = {
     },
     es: {
         translation: {
-
+          "privacyPolicys":{
+            "title":"POLÍTICA DE PRIVACIDAD DEL SITIO WEB https://joakingc.github.io/",
+            "privacyAndDataProtectionPolicy":{
+              "title":"I. POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS",
+              "paragraph1":"Respetando lo establecido en la legislación vigente, Portafolio Joaquin (en adelante, también Sitio Web) se compromete a adoptar las medidas técnicas y organizativas necesarias, según el nivel de seguridad adecuado al riesgo de los datos recogidos.",
+              "LawsPrivacyPolicy":{
+                "paragraph1":"Esta política de privacidad está adaptada a la normativa española y europea vigente en materia de protección de datos personales en internet. En concreto, la misma respeta las siguientes normas:",
+                "listItem":{
+                  "item1":"El Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD).",
+                  "item2":"La Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales (LOPD-GDD).",
+                  "item3":"El Real Decreto 1720/2007, de 21 de diciembre, por el que se aprueba el Reglamento de desarrollo de la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal (RDLOPD).",
+                  "item4":"La Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSI-CE).",
+                },
+              },
+              "dataResponsible":{
+                "paragraph1":"El responsable del tratamiento de los datos personales recogidos en Portafolio Joaquin es: Gaston Joaquin Contreras, con NIF: Y9892262E (en adelante, Responsable del tratamiento). Sus datos de contacto son los siguientes:",
+                "direction":"Dirección: La cumbre 7, San Vicente de Raspeig, Alicante",
+                "tel":"Teléfono de contacto: 634017310",
+                "email":"Email de contacto: joakingcontreras2@gmail.com"
+              },
+              "personalDataRegistry":"Registro de Datos de Carácter Personal",
+              "paragraph2":"En cumplimiento de lo establecido en el RGPD y la LOPD-GDD, le informamos que los datos personales recabados por Portafolio Joaquin, mediante los formularios extendidos en sus páginas quedarán incorporados y serán tratados en nuestro fichero con el fin de poder facilitar, agilizar y cumplir los compromisos establecidos entre Portafolio Joaquin y el Usuario o el mantenimiento de la relación que se establezca en los formularios que este rellene, o para atender una solicitud o consulta del mismo. Asimismo, de conformidad con lo previsto en el RGPD y la LOPD-GDD, salvo que sea de aplicación la excepción prevista en el artículo 30.5 del RGPD, se mantiene un registro de actividades de tratamiento que especifica, según sus finalidades, las actividades de tratamiento llevadas a cabo y las demás circunstancias establecidas en el RGPD.",
+              "principlesApplicable":{
+                "title":"Principios aplicables al tratamiento de los datos personales",
+                "paragraph1":"El tratamiento de los datos personales del Usuario se someterá a los siguientes principios recogidos en el artículo 5 del RGPD y en el artículo 4 y siguientes de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales:",
+                "items":{
+                  "item1":"Principio de licitud, lealtad y transparencia: se requerirá en todo momento el consentimiento del Usuario previa información completamente transparente de los fines para los cuales se recogen los datos personales.",
+                  "item2":"Principio de limitación de la finalidad: los datos personales serán recogidos con fines determinados, explícitos y legítimos.",
+                  "item3":"Principio de minimización de datos: los datos personales recogidos serán únicamente los estrictamente necesarios en relación con los fines para los que son tratados.",
+                  "item4":"Principio de exactitud: los datos personales deben ser exactos y estar siempre actualizados.",
+                  "item5":"Principio de limitación del plazo de conservación: los datos personales solo serán mantenidos de forma que se permita la identificación del Usuario durante el tiempo necesario para los fines de su tratamiento.",
+                  "item6":"Principio de integridad y confidencialidad: los datos personales serán tratados de manera que se garantice su seguridad y confidencialidad.",
+                  "item7":"Principio de responsabilidad proactiva: el Responsable del tratamiento será responsable de asegurar que los principios anteriores se cumplen.",
+                }
+              },
+              "categorysPersonalData":{
+                "title":"Categorías de datos personales",
+                "paragraph1":"Las categorías de datos que se tratan en Portafolio Joaquin son únicamente datos identificativos. En ningún caso, se tratan categorías especiales de datos personales en el sentido del artículo 9 del RGPD."
+              },
+              "legalBasis":{
+                "title":"Base legal para el tratamiento de los datos personales",
+                "paragraph1":"La base legal para el tratamiento de los datos personales es el consentimiento. Portafolio Joaquin se compromete a recabar el consentimiento expreso y verificable del Usuario para el tratamiento de sus datos personales para uno o varios fines específicos.",
+                "paragraph2":"El Usuario tendrá derecho a retirar su consentimiento en cualquier momento. Será tan fácil retirar el consentimiento como darlo. Como regla general, la retirada del consentimiento no condicionará el uso del Sitio Web.",
+                "paragraph3":"En las ocasiones en las que el Usuario deba o pueda facilitar sus datos a través de formularios para realizar consultas, solicitar información o por motivos relacionados con el contenido del Sitio Web, se le informará en caso de que la cumplimentación de alguno de ellos sea obligatoria debido a que los mismos sean imprescindibles para el correcto desarrollo de la operación realizada.",
+              },
+              "destinationOfTheData":{
+                "title":"Fines del tratamiento a que se destinan los datos personales",
+                "paragraph1":"Los datos personales son recabados y gestionados por Portafolio Joaquin con la finalidad de poder facilitar, agilizar y cumplir los compromisos establecidos entre el Sitio Web y el Usuario o el mantenimiento de la relación que se establezca en los formularios que este último rellene o para atender una solicitud o consulta.",
+                "paragraph2":"Igualmente, los datos podrán ser utilizados con una finalidad comercial de personalización, operativa y estadística, y actividades propias del objeto social de Portafolio Joaquin, así como para la extracción, almacenamiento de datos y estudios de marketing para adecuar el Contenido ofertado al Usuario, así como mejorar la calidad, funcionamiento y navegación por el Sitio Web.",
+                "paragraph3":"En el momento en que se obtengan los datos personales, se informará al Usuario acerca del fin o fines específicos del tratamiento a que se destinarán los datos personales; es decir, del uso o usos que se dará a la información recopilada.",
+              },
+              "retentionPeriods":{
+                "title":"Períodos de retención de los datos personales",
+                "paragraph1":"Los datos personales solo serán retenidos durante el tiempo mínimo necesario para los fines de su tratamiento y, en todo caso, únicamente durante el siguiente plazo: 18 meses, o hasta que el Usuario solicite su supresión.",
+                "paragraph2":"En el momento en que se obtengan los datos personales, se informará al Usuario acerca del plazo durante el cual se conservarán los datos personales o, cuando eso no sea posible, los criterios utilizados para determinar este plazo.",
+              },
+              "recipientsPersonalData":{
+                "title":"Destinatarios de los datos personales",
+                "paragraph1":"Los datos personales del Usuario serán compartidos con los siguientes destinatarios o categorías de destinatarios:",
+                "paragraph2":"EmailJS Pte. Ltd. con domicilio a 139 Cecil Street, #03-10, YSY Building, Singapore 069539, Google LLC con domicilio a 1600 Amphitheatre Parkway, Mountain View, CA 94043, Estados Unidos",
+                "paragraph3":"En caso de que el Responsable del tratamiento tenga la intención de transferir datos personales a un tercer país u organización internacional, en el momento en que se obtengan los datos personales, se informará al Usuario acerca del tercer país u organización internacional al cual se tiene la intención de transferir los datos, así como de la existencia o ausencia de una decisión de adecuación de la Comisión."
+              },
+              "personalDataOfMinors":{
+                "title":"Datos personales de menores de edad",
+                "paragraph1":"Respetando lo establecido en los artículos 8 del RGPD y 7 de la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales, solo los mayores de 14 años podrán otorgar su consentimiento para el tratamiento de sus datos personales de forma lícita por Portafolio Joaquin. Si se trata de un menor de 14 años, será necesario el consentimiento de los padres o tutores para el tratamiento, y este solo se considerará lícito en la medida en la que los mismos lo hayan autorizado.",
+              },
+              "secrecyAndSecurityOfPersonalData":{
+                "title":"Secreto y seguridad de los datos personales",
+                "paragraph1":"Portafolio Joaquin se compromete a adoptar las medidas técnicas y organizativas necesarias, según el nivel de seguridad adecuado al riesgo de los datos recogidos, de forma que se garantice la seguridad de los datos de carácter personal y se evite la destrucción, pérdida o alteración accidental o ilícita de datos personales transmitidos, conservados o tratados de otra forma, o la comunicación o acceso no autorizados a dichos datos.",
+                "paragraph2":"Sin embargo, debido a que Portafolio Joaquin no puede garantizar la inexpugnabilidad de internet ni la ausencia total de hackers u otros que accedan de modo fraudulento a los datos personales, el Responsable del tratamiento se compromete a comunicar al Usuario sin dilación indebida cuando ocurra una violación de la seguridad de los datos personales que sea probable que entrañe un alto riesgo para los derechos y libertades de las personas físicas. Siguiendo lo establecido en el artículo 4 del RGPD, se entiende por violación de la seguridad de los datos personales toda violación de la seguridad que ocasione la destrucción, pérdida o alteración accidental o ilícita de datos personales transmitidos, conservados o tratados de otra forma, o la comunicación o acceso no autorizados a dichos datos.",
+                "paragraph3":"Los datos personales serán tratados como confidenciales por el Responsable del tratamiento, quien se compromete a informar de y a garantizar por medio de una obligación legal o contractual que dicha confidencialidad sea respetada por sus empleados, asociados, y toda persona a la cual le haga accesible la información."
+              },
+              "RightsFromProcessingOfPersonalData":{
+                "title":"Derechos derivados del tratamiento de los datos personales",
+                "paragraph1":"El Usuario tiene sobre Portafolio Joaquin y podrá, por tanto, ejercer frente al Responsable del tratamiento los siguientes derechos reconocidos en el RGPD y la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales:",
+                "listDigitalRights":{
+                  "item1":"Derecho de acceso: Es el derecho del Usuario a obtener confirmación de si Portafolio Joaquin está tratando o no sus datos personales y, en caso afirmativo, obtener información sobre sus datos concretos de carácter personal y del tratamiento que Portafolio Joaquin haya realizado o realice, así como, entre otra, de la información disponible sobre el origen de dichos datos y los destinatarios de las comunicaciones realizadas o previstas de los mismos.",
+                  "item2":"Derecho de rectificación: Es el derecho del Usuario a que se modifiquen sus datos personales que resulten ser inexactos o, teniendo en cuenta los fines del tratamiento, incompletos.",
+                  "item3":'Derecho de supresión ("el derecho al olvido"): Es el derecho del Usuario, siempre que la legislación vigente no establezca lo contrario, a obtener la supresión de sus datos personales cuando estos ya no sean necesarios para los fines para los cuales fueron recogidos o tratados; el Usuario haya retirado su consentimiento al tratamiento y este no cuente con otra base legal; el Usuario se oponga al tratamiento y no exista otro motivo legítimo para continuar con el mismo; los datos personales hayan sido tratados ilícitamente; los datos personales deban suprimirse en cumplimiento de una obligación legal; o los datos personales hayan sido obtenidos producto de una oferta directa de servicios de la sociedad de la información a un menor de 14 años. Además de suprimir los datos, el Responsable del tratamiento, teniendo en cuenta la tecnología disponible y el coste de su aplicación, deberá adoptar medidas razonables para informar a los responsables que estén tratando los datos personales de la solicitud del interesado de supresión de cualquier enlace a esos datos personales.',
+                  "item4":"Derecho a la limitación del tratamiento: Es el derecho del Usuario a limitar el tratamiento de sus datos personales. El Usuario tiene derecho a obtener la limitación del tratamiento cuando impugne la exactitud de sus datos personales; el tratamiento sea ilícito; el Responsable del tratamiento ya no necesite los datos personales, pero el Usuario lo necesite para hacer reclamaciones; y cuando el Usuario se haya opuesto al tratamiento.",
+                  "item5":"Derecho a la portabilidad de los datos: En caso de que el tratamiento se efectúe por medios automatizados, el Usuario tendrá derecho a recibir del Responsable del tratamiento sus datos personales en un formato estructurado, de uso común y lectura mecánica, y a transmitirlos a otro responsable del tratamiento. Siempre que sea técnicamente posible, el Responsable del tratamiento transmitirá directamente los datos a ese otro responsable.",
+                  "item6":"Derecho de oposición: Es el derecho del Usuario a que no se lleve a cabo el tratamiento de sus datos de carácter personal o se cese el tratamiento de los mismos por parte de Portafolio Joaquin.",
+                  "item7":"Derecho a no ser objeto de una decisión basada únicamente en el tratamiento automatizado, incluida la elaboración de perfiles: Es el derecho del Usuario a no ser objeto de una decisión individualizada basada únicamente en el tratamiento automatizado de sus datos personales, incluida la elaboración de perfiles, existente salvo que la legislación vigente establezca lo contrario.",
+                },
+                "paragraph2":'Así pues, el Usuario podrá ejercitar sus derechos mediante comunicación escrita dirigida al Responsable del tratamiento con la referencia "RGPD-https://joakingc.github.io/", especificando:',
+                "listOfRequireForComuni":{
+                  "item1":"Nombre, apellidos del Usuario y copia del DNI. En los casos en que se admita la representación, será también necesaria la identificación por el mismo medio de la persona que representa al Usuario, así como el documento acreditativo de la representación. La fotocopia del DNI podrá ser sustituida, por cualquier otro medio válido en derecho que acredite la identidad.",
+                  "item2":"Petición con los motivos específicos de la solicitud o información a la que se quiere acceder.",
+                  "item3":'Domicilio a efecto de notificaciones.',
+                  "item4":"Fecha y firma del solicitante.",
+                  "item5":"Todo documento que acredite la petición que formula.",
+                },
+                "paragraph3":'Esta solicitud y todo otro documento adjunto podrá enviarse a la siguiente dirección y/o correo electrónico:',
+                "paragraph4":'Dirección postal: La cumbre 7, San Vicente de Raspeig, Alicante',
+                "paragraph5":'Correo electrónico: joakingcontreras2@gmail.com',
+              },
+              "linksThirdPartyWebsites":{
+                "title":"Enlaces a sitios web de terceros",
+                "paragraph1":"El Sitio Web puede incluir hipervínculos o enlaces que permiten acceder a páginas web de terceros distintos de Portafolio Joaquin, y que por tanto no son operados por Portafolio Joaquin. Los titulares de dichos sitios web dispondrán de sus propias políticas de protección de datos, siendo ellos mismos, en cada caso, responsables de sus propios ficheros y de sus propias prácticas de privacidad."
+              },
+              "complaintsSupervisoryAuthority":{
+                "title":"Reclamaciones ante la autoridad de control",
+                "paragraph1":"En caso de que el Usuario considere que existe un problema o infracción de la normativa vigente en la forma en la que se están tratando sus datos personales, tendrá derecho a la tutela judicial efectiva y a presentar una reclamación ante una autoridad de control, en particular, en el Estado en el que tenga su residencia habitual, lugar de trabajo o lugar de la supuesta infracción. En el caso de España, la autoridad de control es la Agencia Española de Protección de Datos (https://www.aepd.es/)."
+              }
+            },
+            "acceptanceAndChangesPrivacyPolicy":{
+              "title":"II. ACEPTACIÓN Y CAMBIOS EN ESTA POLÍTICA DE PRIVACIDAD",
+              "paragraph1":"Es necesario que el Usuario haya leído y esté conforme con las condiciones sobre la protección de datos de carácter personal contenidas en esta Política de Privacidad, así como que acepte el tratamiento de sus datos personales para que el Responsable del tratamiento pueda proceder al mismo en la forma, durante los plazos y para las finalidades indicadas. El uso del Sitio Web implicará la aceptación de la Política de Privacidad del mismo.",
+              "paragraph2":"Portafolio Joaquin se reserva el derecho a modificar su Política de Privacidad, de acuerdo a su propio criterio, o motivado por un cambio legislativo, jurisprudencial o doctrinal de la Agencia Española de Protección de Datos. Los cambios o actualizaciones de esta Política de Privacidad no serán notificados de forma explícita al Usuario. Se recomienda al Usuario consultar esta página de forma periódica para estar al tanto de los últimos cambios o actualizaciones.",
+              "paragraph3":"Esta Política de Privacidad fue actualizada para adaptarse al Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo, de 27 de abril de 2016, relativo a la protección de las personas físicas en lo que respecta al tratamiento de datos personales y a la libre circulación de estos datos (RGPD) y a la Ley Orgánica 3/2018, de 5 de diciembre, de Protección de Datos Personales y garantía de los derechos digitales.",
+              "paragraph4":"Este documento de Política de Privacidad de un sitio web ha sido creado mediante el generador de plantilla de política de privacidad web gratis online el día 05/05/2025.",
+            }
+          },
           "LegalNotice":{
               "title":"AVISO LEGAL Y CONDICIONES GENERALES DE USO https://joakingc.github.io/",
               "generalInformation":{
