@@ -118,7 +118,7 @@ const Navbar = () => {
                     setActive(nav.id);
                   }}
                 >
-                  <a href={`#${nav.id}`}>{t(nav.title)}</a>
+                  <a href={`/#${nav.id}`}>{t(nav.title)}</a>
                 </li>
               ))}
               {languages.map((lan) =>(
