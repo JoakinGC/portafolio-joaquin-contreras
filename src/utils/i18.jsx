@@ -5,7 +5,7 @@ const resources = {
     en: {
         translation: {
             "cookiesPolicy": {
-                "title": "COOKIES POLICY https://joakingc.github.io/",
+                "title": "COOKIES POLICY https://joaquincontreras.net/",
                 "paragraph1": "Access to this Website may involve the use of cookies. Cookies are small amounts of information stored in the browser used by each User —across the various devices they may use to browse— so that the server remembers certain information that only the server that implemented it will later read. Cookies make browsing easier, more user-friendly, and do not harm the browsing device.",
                 "paragraph2": "Cookies are automatic procedures for collecting information related to the preferences determined by the User during their visit to the Website in order to recognise them as a User and personalise their experience and use of the Website. They may also, for example, help to identify and resolve errors.",
                 "paragraph3": "The information collected through cookies may include the date and time of visits to the Website, the pages viewed, the time spent on the Website, and the sites visited just before and after it. However, no cookie allows contact with the User’s phone number or any other means of personal contact. No cookie can extract information from the User’s hard drive or steal personal information. The only way a User’s private information becomes part of the cookie file is if the user personally provides that information to the server.",
@@ -17,7 +17,7 @@ const resources = {
                 "paragraph7": "This Cookies Policy document was created using the free online web cookies policy template generator on 05/05/2025."
               }
             ,"privacyPolicys": {
-              "title": "WEBSITE PRIVACY POLICY https://joakingc.github.io/",
+              "title": "WEBSITE PRIVACY POLICY https://joaquincontreras.net/",
               "privacyAndDataProtectionPolicy": {
                 "title": "I. PRIVACY AND DATA PROTECTION POLICY",
                 "paragraph1": "In compliance with current legislation, Portafolio Joaquin (hereinafter, the Website) undertakes to adopt the necessary technical and organisational measures, according to the level of security appropriate to the risk of the data collected.",
@@ -100,7 +100,7 @@ const resources = {
                     "item6": "Right to object: the User’s right to object to the processing of their personal data or to have the processing of their personal data by Portafolio Joaquin ceased.",
                     "item7": "Right not to be subject to a decision based solely on automated processing, including profiling: the User’s right not to be subject to an individualised decision based solely on automated processing of their personal data, including profiling, unless current legislation provides otherwise."
                   },
-                  "paragraph2": "Thus, the User may exercise their rights by written communication addressed to the Data Controller with the reference \"GDPR‑https://joakingc.github.io/\", specifying:",
+                  "paragraph2": "Thus, the User may exercise their rights by written communication addressed to the Data Controller with the reference \"GDPR‑https://joaquincontreras.net/\", specifying:",
                   "listOfRequireForComuni": {
                     "item1": "Name and surname of the User and a copy of the ID document. In the cases in which representation is accepted, identification by the same means of the person representing the User, as well as the document accrediting the representation, will also be necessary. The photocopy of the ID may be replaced, by any other legally valid means that proves identity.",
                     "item2": "Request with the specific reasons for the request or information to which access is sought.",
@@ -130,11 +130,11 @@ const resources = {
               }
             }
           ,"LegalNotice": {
-                            "title": "LEGAL NOTICE AND GENERAL TERMS OF USE https://joakingc.github.io/",
+                            "title": "LEGAL NOTICE AND GENERAL TERMS OF USE https://joaquincontreras.net/",
                             "generalInformation": {
                               "title": "I. GENERAL INFORMATION",
                               "paragraph1": "In compliance with the duty of information set out in Law 34/2002 on Information Society Services and Electronic Commerce (LSSI‑CE) of 11 July, the following general information about this website is provided:",
-                              "paragraph2": "The ownership of this website, https://joakingc.github.io/ (hereinafter, the Website), is held by: Gaston Joaquin Contreras, with tax ID: Y9892262E, whose contact details are:",
+                              "paragraph2": "The ownership of this website, https://joaquincontreras.net/ (hereinafter, the Website), is held by: Gaston Joaquin Contreras, with tax ID: Y9892262E, whose contact details are:",
                               "direction": "Address: La Cumbre 7, San Vicente de Raspeig, Alicante",
                               "phone": "Contact phone: 634 017 310",
                               "email": "Contact email: joakingcontreras2@gmail.com"
@@ -274,7 +274,7 @@ const resources = {
     es: {
         translation: {
           "cookiesPolicy":{
-            "title":"POLÍTICA DE COOKIES https://joakingc.github.io/",
+            "title":"POLÍTICA DE COOKIES https://joaquincontreras.net/",
             "paragraph1":"El acceso a este Sitio Web puede implicar la utilización de cookies. Las cookies son pequeñas cantidades de información que se almacenan en el navegador utilizado por cada Usuario —en los distintos dispositivos que pueda utilizar para navegar— para que el servidor recuerde cierta información que posteriormente y únicamente el servidor que la implementó leerá. Las cookies facilitan la navegación, la hacen más amigable, y no dañan el dispositivo de navegación.",
             "paragraph2":"Las cookies son procedimientos automáticos de recogida de información relativa a las preferencias determinadas por el Usuario durante su visita al Sitio Web con el fin de reconocerlo como Usuario, y personalizar su experiencia y el uso del Sitio Web, y pueden también, por ejemplo, ayudar a identificar y resolver errores.",
             "paragraph3":"La información recabada a través de las cookies puede incluir la fecha y hora de visitas al Sitio Web, las páginas visionadas, el tiempo que ha estado en el Sitio Web y los sitios visitados justo antes y después del mismo. Sin embargo, ninguna cookie permite que esta misma pueda contactarse con el número de teléfono del Usuario o con cualquier otro medio de contacto personal. Ninguna cookie puede extraer información del disco duro del Usuario o robar información personal. La única manera de que la información privada del Usuario forme parte del archivo Cookie es que el usuario dé personalmente esa información al servidor.",
@@ -286,7 +286,7 @@ const resources = {
             "paragraph7":"Este documento de Política de Cookies ha sido creado mediante el generador de plantilla de política de cookies web gratis online el día 05/05/2025.",
           }
           ,"privacyPolicys":{
-            "title":"POLÍTICA DE PRIVACIDAD DEL SITIO WEB https://joakingc.github.io/",
+            "title":"POLÍTICA DE PRIVACIDAD DEL SITIO WEB https://joaquincontreras.net/",
             "privacyAndDataProtectionPolicy":{
               "title":"I. POLÍTICA DE PRIVACIDAD Y PROTECCIÓN DE DATOS",
               "paragraph1":"Respetando lo establecido en la legislación vigente, Portafolio Joaquin (en adelante, también Sitio Web) se compromete a adoptar las medidas técnicas y organizativas necesarias, según el nivel de seguridad adecuado al riesgo de los datos recogidos.",
@@ -369,7 +369,7 @@ const resources = {
                   "item6":"Derecho de oposición: Es el derecho del Usuario a que no se lleve a cabo el tratamiento de sus datos de carácter personal o se cese el tratamiento de los mismos por parte de Portafolio Joaquin.",
                   "item7":"Derecho a no ser objeto de una decisión basada únicamente en el tratamiento automatizado, incluida la elaboración de perfiles: Es el derecho del Usuario a no ser objeto de una decisión individualizada basada únicamente en el tratamiento automatizado de sus datos personales, incluida la elaboración de perfiles, existente salvo que la legislación vigente establezca lo contrario.",
                 },
-                "paragraph2":'Así pues, el Usuario podrá ejercitar sus derechos mediante comunicación escrita dirigida al Responsable del tratamiento con la referencia "RGPD-https://joakingc.github.io/", especificando:',
+                "paragraph2":'Así pues, el Usuario podrá ejercitar sus derechos mediante comunicación escrita dirigida al Responsable del tratamiento con la referencia "RGPD-https://joaquincontreras.net/", especificando:',
                 "listOfRequireForComuni":{
                   "item1":"Nombre, apellidos del Usuario y copia del DNI. En los casos en que se admita la representación, será también necesaria la identificación por el mismo medio de la persona que representa al Usuario, así como el documento acreditativo de la representación. La fotocopia del DNI podrá ser sustituida, por cualquier otro medio válido en derecho que acredite la identidad.",
                   "item2":"Petición con los motivos específicos de la solicitud o información a la que se quiere acceder.",
@@ -399,11 +399,11 @@ const resources = {
             }
           },
           "LegalNotice":{
-              "title":"AVISO LEGAL Y CONDICIONES GENERALES DE USO https://joakingc.github.io/",
+              "title":"AVISO LEGAL Y CONDICIONES GENERALES DE USO https://joaquincontreras.net/",
               "generalInformation":{
                 "title":"I. INFORMACIÓN GENERAL",
                 "paragraph1":"En cumplimiento con el deber de información dispuesto en la Ley 34/2002 de Servicios de la Sociedad de la Información y el Comercio Electrónico (LSSI-CE) de 11 de julio, se facilitan a continuación los siguientes datos de información general de este sitio web:",
-                "paragraph2":"La titularidad de este sitio web, https://joakingc.github.io/, (en adelante, Sitio Web) la ostenta: Gaston Joaquin Contreras, con NIF: Y9892262E, y cuyos datos de contacto son:",
+                "paragraph2":"La titularidad de este sitio web, https://joaquincontreras.net/, (en adelante, Sitio Web) la ostenta: Gaston Joaquin Contreras, con NIF: Y9892262E, y cuyos datos de contacto son:",
                 "direction":"Dirección: La cumbre 7, San Vicente de Raspeig, Alicante",
                 "phone":"Teléfono de contacto: 634017310",
                 "email":"Email de contacto: joakingcontreras2@gmail.com"
