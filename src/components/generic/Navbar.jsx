@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
 import { styles } from "../../styles";
 import { navLinks,languages } from "../../constants";
@@ -12,6 +12,18 @@ const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const { hash } = useLocation();
+
+
+
+  useEffect(() => {
+    if (!hash) return;
+    requestAnimationFrame(() => {
+      const id = hash.replace("#", "");
+      const el = document.getElementById(id);
+      if (el) el.scrollIntoView({ behavior: "smooth" });
+    });
+  }, [hash]);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -63,7 +75,7 @@ const Navbar = () => {
               } hover:text-black dark:hover:text-white text-[18px] font-medium cursor-pointer`}
               onClick={() => setActive(nav.id)}
             >
-              <a href={`#${nav.id}`}>{t(nav.title)}</a>
+              <a href={`/#${nav.id}`}>{t(nav.title)}</a>
             </li>
           ))}
           <li>
